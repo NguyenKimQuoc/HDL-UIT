@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\HDL\Ram\PreSyn
+vRam
+Z1 !s100 ?d3AY@;``oBdG_2W4g:BK1
+Z2 IQWEUYO:CR2J?_@MO8C@5e2
+Z3 VKkn_E6<S=4TVT;n:l`z<d3
+Z4 dD:\HDL\Ram\PostSyn
+Z5 w1601836019
+Z6 8D:/HDL/Ram/simulation/modelsim/Ram.vo
+Z7 FD:/HDL/Ram/simulation/modelsim/Ram.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/HDL/Ram/simulation/modelsim/Ram.vo|
+Z10 o-work work -O0
+n@ram
+!i10b 1
+!s85 0
+Z11 !s108 1601861925.461000
+Z12 !s107 D:/HDL/Ram/simulation/modelsim/Ram.vo|
+!s101 -O0
+vTestRam
+!i10b 1
+!s100 RVQ^5cInCTkA;d83gOmEF1
+I:61ZeW6m3ocKKU>@VaCN`3
+Z13 VdgdfmFO`hl`4OI8QD1oLf0
+R4
+w1604241957
+8D:\HDL\Ram\PreSyn\tb_Ram.v
+FD:\HDL\Ram\PreSyn\tb_Ram.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1604242092.124000
+!s107 D:\HDL\Ram\PreSyn\tb_Ram.v|
+!s90 -reportprogress|300|-work|work|D:\HDL\Ram\PreSyn\tb_Ram.v|
+!s101 -O0
+R10
+Z14 n@test@ram

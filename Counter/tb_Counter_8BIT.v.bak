@@ -1,0 +1,46 @@
+`timescale 1ns/1ps
+module tb_Counter_8BIT();
+  reg [7:0] IN;
+  reg  ENABLE, UP_DOWN, CLK, LOAD, SET, RESET;
+  wire [7:0] OUT;
+  wire CARRYOUT;
+  initial begin
+    CLK = 0;
+    UP_DOWN = 0;
+    ENABLE  = 0;
+    SET = 1;
+    RESET = 1;
+    IN = 0;
+    LOAD = 1;
+    #30;
+    
+    LOAD = 1'b0;
+    ENABLE = 1'b1;
+    #500;
+    RESET = 0;
+    $100;
+    RESET = 1;
+    $10;
+    LOAD = 1'b1;
+    IN = 8'd125;
+    #20;
+    
+    LOAD = 1'b0;
+    UP_DOWN = 1'b1;
+    #500;
+    SET = 0;
+    $100;
+    SET = 1;
+    $10;
+    LOAD = 1'b1;
+    IN = 8'd55;
+    #20;
+    
+    LOAD = 1'b0;
+    UP_DOWN = 1'b0;
+    #2500 $finish;
+  end
+    always @ (CLK)
+      #10 CLK <= ~CLK;
+    Counter_NBIT ins1(.Q(OUT), .Cout(CARRYOUT), .In(IN), .E(ENABLE), .D(UP_DOWN), .Clk(CLK), .Load(LOAD), .Reset(RESET), .Set(SET));
+endmodule

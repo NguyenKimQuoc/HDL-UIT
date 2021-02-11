@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\HDL\Shift
+vShiftParallel_NBIT
+Z1 !s100 oO1Ij7[9PZAaULAlNJm9^0
+Z2 I6]RKRKm9=RB4EkATkHZ9G1
+Z3 Vn;kzCY[9bBRC4_5=0lbBi3
+Z4 dD:\HDL\Shift\Post_Syn
+Z5 w1601222707
+Z6 8D:/HDL/Shift/simulation/modelsim/ShiftParallel.vo
+Z7 FD:/HDL/Shift/simulation/modelsim/ShiftParallel.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/HDL/Shift/simulation/modelsim/ShiftParallel.vo|
+Z10 o-work work -O0
+Z11 n@shift@parallel_@n@b@i@t
+Z12 !s108 1604236446.840000
+Z13 !s107 D:/HDL/Shift/simulation/modelsim/ShiftParallel.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vSRwPLtest
+!i10b 1
+!s100 I5Zm2JbknZohge@d89<1U0
+IMj>1cOmdWHRLTE@=kf:P[3
+Z14 VOYPC3iVH;eo8l@:JOo1SS2
+R4
+w1604236739
+Z15 8D:\HDL\Shift\testbench.v
+Z16 FD:\HDL\Shift\testbench.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1604236743.391000
+!s107 D:\HDL\Shift\testbench.v|
+Z17 !s90 -reportprogress|300|-work|work|D:\HDL\Shift\testbench.v|
+!s101 -O0
+R10
+Z18 n@s@rw@p@ltest

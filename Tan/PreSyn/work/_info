@@ -1,0 +1,320 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vAddition_Subtraction
+Z1 !s100 dK7G9;jXVNR6ZiF>C>oRz2
+Z2 I>Z96DeQE[>Kh5o;aALVg90
+Z3 V@JGXUM28b`F9`MWETaa[33
+Z4 dD:\HDL\Tan\PreSyn
+Z5 w1608652681
+Z6 8D:/HDL/Tan/fdivider.v
+Z7 FD:/HDL/Tan/fdivider.v
+L0 56
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s108 1608888500.829000
+Z10 !s107 D:/HDL/Tan/fdivider.v|
+Z11 !s90 -reportprogress|300|-work|work|D:/HDL/Tan/fdivider.v|
+Z12 o-work work -O0
+Z13 n@addition_@subtraction
+!i10b 1
+!s85 0
+!s101 -O0
+vComparator
+Z14 !s100 `0]1e;n[8hnQ27B`FeG[;3
+Z15 I^hoN3DfP;Z9T@gkUB:_1:3
+Z16 V<b2Shh1Lcf_oLkO<5V9BL2
+R4
+Z17 w1608821167
+Z18 8D:/HDL/Tan/Comparator.v
+Z19 FD:/HDL/Tan/Comparator.v
+L0 1
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|D:/HDL/Tan/Comparator.v|
+R12
+Z21 n@comparator
+Z22 !s108 1608888499.615000
+Z23 !s107 D:/HDL/Tan/Comparator.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vController
+Z24 !s100 k2bTA:W?78?4SecRB0eoG2
+Z25 ID[[8OdGnNeTYTF?cf4ST<2
+Z26 VUff]j0Q=ZgAn0126H>0n_1
+R4
+Z27 w1608888231
+Z28 8D:/HDL/Tan/Controller.v
+Z29 FD:/HDL/Tan/Controller.v
+L0 1
+R8
+r1
+31
+Z30 !s90 -reportprogress|300|-work|work|D:/HDL/Tan/Controller.v|
+R12
+Z31 n@controller
+Z32 !s108 1608888499.833000
+Z33 !s107 D:/HDL/Tan/Controller.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDatapath
+Z34 I7_;hzh_4Zcei][1WiDfV23
+Z35 Vo5>4V0;P8KA:T@f;Vcl2_0
+R4
+Z36 w1608888495
+Z37 8D:/HDL/Tan/Datapath.v
+Z38 FD:/HDL/Tan/Datapath.v
+L0 1
+R8
+r1
+31
+Z39 !s90 -reportprogress|300|-work|work|D:/HDL/Tan/Datapath.v|
+R12
+Z40 n@datapath
+Z41 !s100 4<<Y]8bQ^l??OL[]AGJNa1
+Z42 !s108 1608888500.030000
+Z43 !s107 D:/HDL/Tan/Datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDegtoRad
+Z44 !s100 LA;ATe>DCYTY1:cCzDTin1
+Z45 IQ`Kj?0HNTbO:PAUH?h8G[0
+Z46 VmScM@e2dRNj3EJ_DDS3KU1
+R4
+Z47 w1608887452
+Z48 8D:/HDL/Tan/DegtoRad.v
+Z49 FD:/HDL/Tan/DegtoRad.v
+L0 1
+R8
+r1
+31
+Z50 !s90 -reportprogress|300|-work|work|D:/HDL/Tan/DegtoRad.v|
+R12
+Z51 n@degto@rad
+Z52 !s108 1608888500.273000
+Z53 !s107 D:/HDL/Tan/DegtoRad.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfadder
+Z54 !s100 W[cje@_<aN:l4:2IX2Ubh3
+Z55 IAi^PK96gf^n:@[1TRjZ@10
+Z56 Vko2a7VHGAJV5T^aHJgcL^3
+R4
+Z57 w1608805114
+Z58 8D:/HDL/Tan/fadder.v
+Z59 FD:/HDL/Tan/fadder.v
+L0 1
+R8
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|D:/HDL/Tan/fadder.v|
+R12
+Z61 !s108 1608888500.630000
+Z62 !s107 D:/HDL/Tan/fadder.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfdivider
+Z63 !s100 3XO^JF6X5<Hj8FkjQK<RR3
+Z64 IzH7_;KH751Rk6aUgY=UdP1
+Z65 V?VdzUdjf7QnUR=n<;:FSz1
+R4
+R5
+R6
+R7
+L0 1
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vIteration
+Z66 !s100 1O:IMVYmFnO8U2:PRMRlF1
+Z67 IgPaIW6eJN;zFa:8X7:U3e3
+Z68 ViLg<57l`:6ibdMaHIKPBH1
+R4
+R5
+R6
+R7
+Z69 L0 147
+R8
+r1
+31
+R9
+R10
+R11
+R12
+Z70 n@iteration
+!i10b 1
+!s85 0
+!s101 -O0
+vLoopDivider10
+Z71 !s100 UL^XlBTnN>eDX7^FU1HH=0
+Z72 IKm7IcUlMWRjbojaOefDWW2
+Z73 V6<[GCh^4KTP0@4:SKRH733
+R4
+Z74 w1608845218
+Z75 8D:/HDL/Tan/LoopDivider10.v
+Z76 FD:/HDL/Tan/LoopDivider10.v
+L0 1
+R8
+r1
+31
+Z77 !s90 -reportprogress|300|-work|work|D:/HDL/Tan/LoopDivider10.v|
+R12
+Z78 n@loop@divider10
+Z79 !s108 1608888501.815000
+Z80 !s107 D:/HDL/Tan/LoopDivider10.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMultiplication
+Z81 !s100 dLEnoBCfX[W@e_<WEL3jG3
+Z82 I<j85R@IB=2KY5G`io2Szn0
+Z83 Vc[3k=`SCXYgXjdD05YkCC1
+R4
+R5
+R6
+R7
+Z84 L0 164
+R8
+r1
+31
+R9
+R10
+R11
+R12
+Z85 n@multiplication
+!i10b 1
+!s85 0
+!s101 -O0
+vmux21
+Z86 !s100 9Nf1NP228o4R2OTVEU<fJ2
+Z87 IYnY7;VAZKWbOjH0`MgnFD2
+Z88 VkRkH26C?mV>_?SQ[7=>LP0
+R4
+Z89 w1608886405
+Z90 8D:/HDL/Tan/Mux.v
+Z91 FD:/HDL/Tan/Mux.v
+L0 1
+R8
+r1
+31
+Z92 !s108 1608888502.039000
+Z93 !s107 D:/HDL/Tan/Mux.v|
+Z94 !s90 -reportprogress|300|-work|work|D:/HDL/Tan/Mux.v|
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vmux81
+Z95 !s100 i]=;EiPnzmMbmaV^?gW[l1
+Z96 I3<X0FAO9VAV0_bZMG@<>I0
+Z97 V]?^T1bz`[X8gaV6F^gl_11
+R4
+R89
+R90
+R91
+L0 10
+R8
+r1
+31
+R92
+R93
+R94
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vpriority_encoder
+Z98 !s100 3Pe8VTT7_QWb;CZ1_B_>92
+Z99 IL^d1QS8[02Flc@VKD@Mz72
+Z100 Viz^i15Mki>@]TPPT:D7_L3
+R4
+R5
+R6
+R7
+Z101 L0 218
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vTan
+Z102 !s100 nFI^gF6413;3:7ijLgbOD0
+Z103 IR_:1bEh;`RDlN9I833BR`0
+Z104 VGO]Y4zdR7SIgQaUo2YS^53
+R4
+Z105 w1608850193
+Z106 8D:/HDL/Tan/Tan.v
+Z107 FD:/HDL/Tan/Tan.v
+L0 1
+R8
+r1
+31
+Z108 !s90 -reportprogress|300|-work|work|D:/HDL/Tan/Tan.v|
+R12
+n@tan
+Z109 !s108 1608888502.572000
+Z110 !s107 D:/HDL/Tan/Tan.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTestController
+Z111 !s100 Rgf83HJDY@zGXSSdTLPAh1
+Z112 ICFS>nM:HcBlC]MX8`01VY2
+Z113 VRC7=H[EGRm3J_2`A:`?Bc3
+R4
+Z114 w1608888343
+Z115 8D:/HDL/Tan/PreSyn/tb_Controller.v
+Z116 FD:/HDL/Tan/PreSyn/tb_Controller.v
+L0 2
+R8
+r1
+31
+Z117 !s90 -reportprogress|300|-work|work|D:/HDL/Tan/PreSyn/tb_Controller.v|
+R12
+Z118 n@test@controller
+!i10b 1
+!s85 0
+Z119 !s108 1608888503.546000
+Z120 !s107 D:/HDL/Tan/PreSyn/tb_Controller.v|
+!s101 -O0
+vTestTan
+!i10b 1
+!s100 b:dSlNdBBg;?83G2c^:>]0
+If9VQ:I56];D88WZ^j:6bA0
+Vg>[H>gKDVK];JR@ROHacV3
+R4
+w1608888592
+Z121 8D:/HDL/Tan/testbench.v
+Z122 FD:/HDL/Tan/testbench.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1608888595.735000
+!s107 D:/HDL/Tan/testbench.v|
+Z123 !s90 -reportprogress|300|-work|work|D:/HDL/Tan/testbench.v|
+!s101 -O0
+R12
+Z124 n@test@tan

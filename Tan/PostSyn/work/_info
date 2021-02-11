@@ -1,0 +1,163 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vDegtoRad
+Z1 I8Y0==`KbAkO<X]?f6]z@]3
+Z2 V]140a6H_eVFg0hbbm>8Hi0
+Z3 dD:\HDL\Tan\PostSyn
+Z4 w1608905799
+Z5 8D:/HDL/Tan/PostSyn/Tan.vo
+Z6 FD:/HDL/Tan/PostSyn/Tan.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -reportprogress|300|-work|work|D:/HDL/Tan/PostSyn/Tan.vo|
+Z9 o-work work -O0
+Z10 n@degto@rad
+Z11 !s100 `N>b7oWh^lPEBRi]cAQ3Q0
+Z12 !s108 1608905910.335000
+Z13 !s107 D:/HDL/Tan/PostSyn/Tan.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vfdivider
+Z14 !s100 Nl?O1SB=NGE[9o>HR;b243
+Z15 IVbC7YXSg`3jB@G0L876>j1
+Z16 V?VdzUdjf7QnUR=n<;:FSz1
+R3
+Z17 w1608897236
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z18 !s108 1608897391.758000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vfmultiplication
+Z19 !s100 VdazBLfne0E88:CeU[B_o0
+Z20 I02QJkCF5YTV8PB_K^1PH?0
+Z21 V9lcn6`1S<z7TZW^?zFai<2
+R3
+Z22 w1608911464
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z23 !s108 1608911531.600000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vTan
+Z24 IDU0>IZlQ[FVRTabWREi?l0
+Z25 V?ALPS]mf7N_JS>Dam]==M3
+R3
+Z26 w1609093746
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+n@tan
+Z27 !s100 H`BL:R@15SG[AZoC;30Ld3
+Z28 !s108 1609093919.842000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vTestDegtoRad
+Z29 !s100 jAlmi`@mE[UYz2<2alZc]0
+Z30 IznGh8Wo?bD=bH:BRg^6CG2
+Z31 VzJLkA1imM5:^>PmbIeVbN1
+R3
+Z32 w1608905907
+Z33 8D:/HDL/Tan/PostSyn/tb_DegtoRad.v
+Z34 FD:/HDL/Tan/PostSyn/tb_DegtoRad.v
+L0 2
+R7
+r1
+31
+Z35 !s90 -reportprogress|300|-work|work|D:/HDL/Tan/PostSyn/tb_DegtoRad.v|
+R9
+Z36 n@test@degto@rad
+Z37 !s108 1609093922.181000
+Z38 !s107 D:/HDL/Tan/PostSyn/tb_DegtoRad.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTestFdivider
+Z39 !s100 o;Vi7VJm;de[>ESV6Mj3c3
+Z40 IAfQF[H@SC<^cCg`6>n6o:2
+Z41 VG:DMPodn^4V73CZ=K1a;>0
+R3
+Z42 w1608897388
+Z43 8D:/HDL/Tan/PostSyn/tb_Fdivider.v
+Z44 FD:/HDL/Tan/PostSyn/tb_Fdivider.v
+L0 2
+R7
+r1
+31
+Z45 !s90 -reportprogress|300|-work|work|D:/HDL/Tan/PostSyn/tb_Fdivider.v|
+R9
+Z46 n@test@fdivider
+Z47 !s108 1609093922.379000
+Z48 !s107 D:/HDL/Tan/PostSyn/tb_Fdivider.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTestFmulti
+Z49 !s100 f6hZ[oaJikDfKmLm3ZiK32
+Z50 I3XjBH5eU^HGjOfdT`Kb5l2
+Z51 V<<=^c;mTaRz4TFAVY<]`01
+R3
+Z52 w1608911626
+Z53 8D:/HDL/Tan/PostSyn/tb_Fmulti.v
+Z54 FD:/HDL/Tan/PostSyn/tb_Fmulti.v
+L0 2
+R7
+r1
+31
+Z55 !s90 -reportprogress|300|-work|work|D:/HDL/Tan/PostSyn/tb_Fmulti.v|
+R9
+Z56 n@test@fmulti
+Z57 !s108 1609093922.618000
+Z58 !s107 D:/HDL/Tan/PostSyn/tb_Fmulti.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTestTan
+!i10b 1
+!s100 2ziZIX2FW`gd9B]RaU3=K0
+IVHAk5GRQ6HbbWJX6Ae]L?0
+Z59 V6:6oJm8LEnjif[?l1B<9B3
+R3
+w1609095674
+Z60 8D:\HDL\Tan\PostSyn\testbench.v
+Z61 FD:\HDL\Tan\PostSyn\testbench.v
+L0 2
+R7
+r1
+!s85 0
+31
+!s108 1609095676.921000
+!s107 D:\HDL\Tan\PostSyn\testbench.v|
+Z62 !s90 -reportprogress|300|-work|work|D:\HDL\Tan\PostSyn\testbench.v|
+!s101 -O0
+R9
+Z63 n@test@tan

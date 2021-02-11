@@ -1,0 +1,788 @@
+Simulator report for queue
+Sun Nov 01 23:49:14 2020
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ALTSYNCRAM
+  6. Coverage Summary
+  7. Complete 1/0-Value Coverage
+  8. Missing 1-Value Coverage
+  9. Missing 0-Value Coverage
+ 10. Simulator INI Usage
+ 11. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 367 nodes    ;
+; Simulation Coverage         ;      25.07 % ;
+; Total Number of Transitions ; 1487         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                                    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                                                 ; Timing        ;
+; Start time                                                                                 ; 0 ns                                                       ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                        ;               ;
+; Vector input source                                                                        ; D:/HocKi5/HDL/TEST/Queue_using_RAM1kB_PostSyn/Waveform.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                         ; On            ;
+; Check outputs                                                                              ; Off                                                        ; Off           ;
+; Report simulation coverage                                                                 ; On                                                         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                         ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                         ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                         ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                        ; Off           ;
+; Detect glitches                                                                            ; Off                                                        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                        ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                                 ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------------------------------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++----------------------------------------------------------------------------+
+; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ALTSYNCRAM ;
++----------------------------------------------------------------------------+
+Please refer to fitter text-based report (*.fit.rpt) to view logical memory report content in ASCII.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      25.07 % ;
+; Total nodes checked                                 ; 367          ;
+; Total output ports checked                          ; 367          ;
+; Total output ports with complete 1/0-value coverage ; 92           ;
+; Total output ports with no 1/0-value coverage       ; 250          ;
+; Total output ports with no 1-value coverage         ; 258          ;
+; Total output ports with no 0-value coverage         ; 267          ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                    ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+------------------+
+; Node Name                                                                    ; Output Port Name                                                             ; Output Port Type ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+------------------+
+; |queue|i~28                                                                  ; |queue|i~28                                                                  ; out              ;
+; |queue|i~29                                                                  ; |queue|i~29                                                                  ; out              ;
+; |queue|i~30                                                                  ; |queue|i~30                                                                  ; out              ;
+; |queue|i~31                                                                  ; |queue|i~31                                                                  ; out              ;
+; |queue|k[0]                                                                  ; |queue|k[0]                                                                  ; regout           ;
+; |queue|k~26                                                                  ; |queue|k~26                                                                  ; out              ;
+; |queue|k~27                                                                  ; |queue|k~27                                                                  ; out              ;
+; |queue|k~28                                                                  ; |queue|k~28                                                                  ; out              ;
+; |queue|k~29                                                                  ; |queue|k~29                                                                  ; out              ;
+; |queue|k~30                                                                  ; |queue|k~30                                                                  ; out              ;
+; |queue|k~31                                                                  ; |queue|k~31                                                                  ; out              ;
+; |queue|k[3]                                                                  ; |queue|k[3]                                                                  ; regout           ;
+; |queue|k[2]                                                                  ; |queue|k[2]                                                                  ; regout           ;
+; |queue|k[1]                                                                  ; |queue|k[1]                                                                  ; regout           ;
+; |queue|out[1]~reg0                                                           ; |queue|out[1]~reg0                                                           ; regout           ;
+; |queue|out[2]~reg0                                                           ; |queue|out[2]~reg0                                                           ; regout           ;
+; |queue|out[3]~reg0                                                           ; |queue|out[3]~reg0                                                           ; regout           ;
+; |queue|out[4]~reg0                                                           ; |queue|out[4]~reg0                                                           ; regout           ;
+; |queue|i[0]                                                                  ; |queue|i[0]                                                                  ; regout           ;
+; |queue|i[1]                                                                  ; |queue|i[1]                                                                  ; regout           ;
+; |queue|i[2]                                                                  ; |queue|i[2]                                                                  ; regout           ;
+; |queue|i[3]                                                                  ; |queue|i[3]                                                                  ; regout           ;
+; |queue|io[0]                                                                 ; |queue|io[0]                                                                 ; out              ;
+; |queue|io[1]                                                                 ; |queue|io[1]                                                                 ; out              ;
+; |queue|io[2]                                                                 ; |queue|io[2]                                                                 ; out              ;
+; |queue|io[3]                                                                 ; |queue|io[3]                                                                 ; out              ;
+; |queue|io[4]                                                                 ; |queue|io[4]                                                                 ; out              ;
+; |queue|io[5]                                                                 ; |queue|io[5]                                                                 ; out              ;
+; |queue|clk                                                                   ; |queue|clk                                                                   ; out              ;
+; |queue|out[1]                                                                ; |queue|out[1]                                                                ; pin_out          ;
+; |queue|out[2]                                                                ; |queue|out[2]                                                                ; pin_out          ;
+; |queue|out[3]                                                                ; |queue|out[3]                                                                ; pin_out          ;
+; |queue|out[4]                                                                ; |queue|out[4]                                                                ; pin_out          ;
+; |queue|register~1                                                            ; |queue|register~1                                                            ; out0             ;
+; |queue|register_rtl_0_bypass[0]                                              ; |queue|register_rtl_0_bypass[0]                                              ; regout           ;
+; |queue|register~2                                                            ; |queue|register~2                                                            ; out0             ;
+; |queue|register_rtl_0_bypass[1]                                              ; |queue|register_rtl_0_bypass[1]                                              ; regout           ;
+; |queue|register~3                                                            ; |queue|register~3                                                            ; out0             ;
+; |queue|register_rtl_0_bypass[2]                                              ; |queue|register_rtl_0_bypass[2]                                              ; regout           ;
+; |queue|register~4                                                            ; |queue|register~4                                                            ; out0             ;
+; |queue|register_rtl_0_bypass[3]                                              ; |queue|register_rtl_0_bypass[3]                                              ; regout           ;
+; |queue|register~5                                                            ; |queue|register~5                                                            ; out0             ;
+; |queue|register~12                                                           ; |queue|register~12                                                           ; out              ;
+; |queue|register~13                                                           ; |queue|register~13                                                           ; out              ;
+; |queue|register~14                                                           ; |queue|register~14                                                           ; out              ;
+; |queue|register~15                                                           ; |queue|register~15                                                           ; out              ;
+; |queue|register~16                                                           ; |queue|register~16                                                           ; out              ;
+; |queue|register_rtl_0_bypass[10]                                             ; |queue|register_rtl_0_bypass[10]                                             ; regout           ;
+; |queue|register~19                                                           ; |queue|register~19                                                           ; out0             ;
+; |queue|register~20                                                           ; |queue|register~20                                                           ; out0             ;
+; |queue|register_rtl_0_bypass[11]                                             ; |queue|register_rtl_0_bypass[11]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[12]                                             ; |queue|register_rtl_0_bypass[12]                                             ; regout           ;
+; |queue|register~21                                                           ; |queue|register~21                                                           ; out0             ;
+; |queue|register_rtl_0_bypass[13]                                             ; |queue|register_rtl_0_bypass[13]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[14]                                             ; |queue|register_rtl_0_bypass[14]                                             ; regout           ;
+; |queue|register~22                                                           ; |queue|register~22                                                           ; out0             ;
+; |queue|register_rtl_0_bypass[15]                                             ; |queue|register_rtl_0_bypass[15]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[16]                                             ; |queue|register_rtl_0_bypass[16]                                             ; regout           ;
+; |queue|register~23                                                           ; |queue|register~23                                                           ; out0             ;
+; |queue|register_rtl_0_bypass[17]                                             ; |queue|register_rtl_0_bypass[17]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[18]                                             ; |queue|register_rtl_0_bypass[18]                                             ; regout           ;
+; |queue|register~24                                                           ; |queue|register~24                                                           ; out0             ;
+; |queue|register~31                                                           ; |queue|register~31                                                           ; out              ;
+; |queue|register_rtl_0_bypass[32]                                             ; |queue|register_rtl_0_bypass[32]                                             ; regout           ;
+; |queue|register~32                                                           ; |queue|register~32                                                           ; out              ;
+; |queue|register_rtl_0_bypass[33]                                             ; |queue|register_rtl_0_bypass[33]                                             ; regout           ;
+; |queue|register~33                                                           ; |queue|register~33                                                           ; out              ;
+; |queue|register_rtl_0_bypass[34]                                             ; |queue|register_rtl_0_bypass[34]                                             ; regout           ;
+; |queue|register~34                                                           ; |queue|register~34                                                           ; out              ;
+; |queue|register_rtl_0_bypass[35]                                             ; |queue|register_rtl_0_bypass[35]                                             ; regout           ;
+; |queue|register~35                                                           ; |queue|register~35                                                           ; out              ;
+; |queue|register_rtl_0_bypass[36]                                             ; |queue|register_rtl_0_bypass[36]                                             ; regout           ;
+; |queue|Add0~0                                                                ; |queue|Add0~0                                                                ; out0             ;
+; |queue|Add0~1                                                                ; |queue|Add0~1                                                                ; out0             ;
+; |queue|Add0~2                                                                ; |queue|Add0~2                                                                ; out0             ;
+; |queue|Add0~3                                                                ; |queue|Add0~3                                                                ; out0             ;
+; |queue|Add0~4                                                                ; |queue|Add0~4                                                                ; out0             ;
+; |queue|Add0~5                                                                ; |queue|Add0~5                                                                ; out0             ;
+; |queue|Add1~0                                                                ; |queue|Add1~0                                                                ; out0             ;
+; |queue|Add1~1                                                                ; |queue|Add1~1                                                                ; out0             ;
+; |queue|Add1~2                                                                ; |queue|Add1~2                                                                ; out0             ;
+; |queue|Add1~3                                                                ; |queue|Add1~3                                                                ; out0             ;
+; |queue|Add1~4                                                                ; |queue|Add1~4                                                                ; out0             ;
+; |queue|Add1~5                                                                ; |queue|Add1~5                                                                ; out0             ;
+; |queue|Add1~6                                                                ; |queue|Add1~6                                                                ; out0             ;
+; |queue|Add1~7                                                                ; |queue|Add1~7                                                                ; out0             ;
+; |queue|Add1~8                                                                ; |queue|Add1~8                                                                ; out0             ;
+; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ram_block1a1 ; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ram_block1a1 ; portbdataout0    ;
+; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ram_block1a2 ; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ram_block1a2 ; portbdataout0    ;
+; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ram_block1a3 ; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ram_block1a3 ; portbdataout0    ;
+; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ram_block1a4 ; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ram_block1a4 ; portbdataout0    ;
+; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ram_block1a5 ; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ram_block1a5 ; portbdataout0    ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                       ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+------------------+
+; Node Name                                                                    ; Output Port Name                                                             ; Output Port Type ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+------------------+
+; |queue|k[6]                                                                  ; |queue|k[6]                                                                  ; regout           ;
+; |queue|i~0                                                                   ; |queue|i~0                                                                   ; out              ;
+; |queue|i~1                                                                   ; |queue|i~1                                                                   ; out              ;
+; |queue|i~2                                                                   ; |queue|i~2                                                                   ; out              ;
+; |queue|i~3                                                                   ; |queue|i~3                                                                   ; out              ;
+; |queue|i~4                                                                   ; |queue|i~4                                                                   ; out              ;
+; |queue|i~5                                                                   ; |queue|i~5                                                                   ; out              ;
+; |queue|i~6                                                                   ; |queue|i~6                                                                   ; out              ;
+; |queue|i~7                                                                   ; |queue|i~7                                                                   ; out              ;
+; |queue|i~8                                                                   ; |queue|i~8                                                                   ; out              ;
+; |queue|i~9                                                                   ; |queue|i~9                                                                   ; out              ;
+; |queue|i~10                                                                  ; |queue|i~10                                                                  ; out              ;
+; |queue|i~11                                                                  ; |queue|i~11                                                                  ; out              ;
+; |queue|i~12                                                                  ; |queue|i~12                                                                  ; out              ;
+; |queue|i~13                                                                  ; |queue|i~13                                                                  ; out              ;
+; |queue|i~14                                                                  ; |queue|i~14                                                                  ; out              ;
+; |queue|i~15                                                                  ; |queue|i~15                                                                  ; out              ;
+; |queue|i~16                                                                  ; |queue|i~16                                                                  ; out              ;
+; |queue|i~17                                                                  ; |queue|i~17                                                                  ; out              ;
+; |queue|i~18                                                                  ; |queue|i~18                                                                  ; out              ;
+; |queue|i~19                                                                  ; |queue|i~19                                                                  ; out              ;
+; |queue|i~20                                                                  ; |queue|i~20                                                                  ; out              ;
+; |queue|i~21                                                                  ; |queue|i~21                                                                  ; out              ;
+; |queue|i~22                                                                  ; |queue|i~22                                                                  ; out              ;
+; |queue|i~23                                                                  ; |queue|i~23                                                                  ; out              ;
+; |queue|i~24                                                                  ; |queue|i~24                                                                  ; out              ;
+; |queue|i~25                                                                  ; |queue|i~25                                                                  ; out              ;
+; |queue|i~26                                                                  ; |queue|i~26                                                                  ; out              ;
+; |queue|full~reg0                                                             ; |queue|full~reg0                                                             ; regout           ;
+; |queue|empty~reg0                                                            ; |queue|empty~reg0                                                            ; regout           ;
+; |queue|k~0                                                                   ; |queue|k~0                                                                   ; out              ;
+; |queue|k~1                                                                   ; |queue|k~1                                                                   ; out              ;
+; |queue|k~2                                                                   ; |queue|k~2                                                                   ; out              ;
+; |queue|k~3                                                                   ; |queue|k~3                                                                   ; out              ;
+; |queue|k~4                                                                   ; |queue|k~4                                                                   ; out              ;
+; |queue|k~5                                                                   ; |queue|k~5                                                                   ; out              ;
+; |queue|k~6                                                                   ; |queue|k~6                                                                   ; out              ;
+; |queue|k~7                                                                   ; |queue|k~7                                                                   ; out              ;
+; |queue|k~8                                                                   ; |queue|k~8                                                                   ; out              ;
+; |queue|k~9                                                                   ; |queue|k~9                                                                   ; out              ;
+; |queue|k~10                                                                  ; |queue|k~10                                                                  ; out              ;
+; |queue|k~11                                                                  ; |queue|k~11                                                                  ; out              ;
+; |queue|k~12                                                                  ; |queue|k~12                                                                  ; out              ;
+; |queue|k~13                                                                  ; |queue|k~13                                                                  ; out              ;
+; |queue|k~14                                                                  ; |queue|k~14                                                                  ; out              ;
+; |queue|k~15                                                                  ; |queue|k~15                                                                  ; out              ;
+; |queue|k~16                                                                  ; |queue|k~16                                                                  ; out              ;
+; |queue|k~17                                                                  ; |queue|k~17                                                                  ; out              ;
+; |queue|k~18                                                                  ; |queue|k~18                                                                  ; out              ;
+; |queue|k~19                                                                  ; |queue|k~19                                                                  ; out              ;
+; |queue|k~20                                                                  ; |queue|k~20                                                                  ; out              ;
+; |queue|k~21                                                                  ; |queue|k~21                                                                  ; out              ;
+; |queue|k~22                                                                  ; |queue|k~22                                                                  ; out              ;
+; |queue|k~23                                                                  ; |queue|k~23                                                                  ; out              ;
+; |queue|k~24                                                                  ; |queue|k~24                                                                  ; out              ;
+; |queue|k~25                                                                  ; |queue|k~25                                                                  ; out              ;
+; |queue|k[5]                                                                  ; |queue|k[5]                                                                  ; regout           ;
+; |queue|k[7]                                                                  ; |queue|k[7]                                                                  ; regout           ;
+; |queue|k[8]                                                                  ; |queue|k[8]                                                                  ; regout           ;
+; |queue|k[9]                                                                  ; |queue|k[9]                                                                  ; regout           ;
+; |queue|k[10]                                                                 ; |queue|k[10]                                                                 ; regout           ;
+; |queue|k[11]                                                                 ; |queue|k[11]                                                                 ; regout           ;
+; |queue|k[12]                                                                 ; |queue|k[12]                                                                 ; regout           ;
+; |queue|k[13]                                                                 ; |queue|k[13]                                                                 ; regout           ;
+; |queue|k[14]                                                                 ; |queue|k[14]                                                                 ; regout           ;
+; |queue|k[15]                                                                 ; |queue|k[15]                                                                 ; regout           ;
+; |queue|k[16]                                                                 ; |queue|k[16]                                                                 ; regout           ;
+; |queue|k[17]                                                                 ; |queue|k[17]                                                                 ; regout           ;
+; |queue|k[18]                                                                 ; |queue|k[18]                                                                 ; regout           ;
+; |queue|k[19]                                                                 ; |queue|k[19]                                                                 ; regout           ;
+; |queue|k[20]                                                                 ; |queue|k[20]                                                                 ; regout           ;
+; |queue|k[21]                                                                 ; |queue|k[21]                                                                 ; regout           ;
+; |queue|k[22]                                                                 ; |queue|k[22]                                                                 ; regout           ;
+; |queue|k[23]                                                                 ; |queue|k[23]                                                                 ; regout           ;
+; |queue|k[24]                                                                 ; |queue|k[24]                                                                 ; regout           ;
+; |queue|k[25]                                                                 ; |queue|k[25]                                                                 ; regout           ;
+; |queue|k[26]                                                                 ; |queue|k[26]                                                                 ; regout           ;
+; |queue|k[27]                                                                 ; |queue|k[27]                                                                 ; regout           ;
+; |queue|k[28]                                                                 ; |queue|k[28]                                                                 ; regout           ;
+; |queue|k[29]                                                                 ; |queue|k[29]                                                                 ; regout           ;
+; |queue|k[30]                                                                 ; |queue|k[30]                                                                 ; regout           ;
+; |queue|k[31]                                                                 ; |queue|k[31]                                                                 ; regout           ;
+; |queue|out[6]~reg0                                                           ; |queue|out[6]~reg0                                                           ; regout           ;
+; |queue|out[7]~reg0                                                           ; |queue|out[7]~reg0                                                           ; regout           ;
+; |queue|i[5]                                                                  ; |queue|i[5]                                                                  ; regout           ;
+; |queue|i[6]                                                                  ; |queue|i[6]                                                                  ; regout           ;
+; |queue|i[7]                                                                  ; |queue|i[7]                                                                  ; regout           ;
+; |queue|i[8]                                                                  ; |queue|i[8]                                                                  ; regout           ;
+; |queue|i[9]                                                                  ; |queue|i[9]                                                                  ; regout           ;
+; |queue|i[10]                                                                 ; |queue|i[10]                                                                 ; regout           ;
+; |queue|i[11]                                                                 ; |queue|i[11]                                                                 ; regout           ;
+; |queue|i[12]                                                                 ; |queue|i[12]                                                                 ; regout           ;
+; |queue|i[13]                                                                 ; |queue|i[13]                                                                 ; regout           ;
+; |queue|i[14]                                                                 ; |queue|i[14]                                                                 ; regout           ;
+; |queue|i[15]                                                                 ; |queue|i[15]                                                                 ; regout           ;
+; |queue|i[16]                                                                 ; |queue|i[16]                                                                 ; regout           ;
+; |queue|i[17]                                                                 ; |queue|i[17]                                                                 ; regout           ;
+; |queue|i[18]                                                                 ; |queue|i[18]                                                                 ; regout           ;
+; |queue|i[19]                                                                 ; |queue|i[19]                                                                 ; regout           ;
+; |queue|i[20]                                                                 ; |queue|i[20]                                                                 ; regout           ;
+; |queue|i[21]                                                                 ; |queue|i[21]                                                                 ; regout           ;
+; |queue|i[22]                                                                 ; |queue|i[22]                                                                 ; regout           ;
+; |queue|i[23]                                                                 ; |queue|i[23]                                                                 ; regout           ;
+; |queue|i[24]                                                                 ; |queue|i[24]                                                                 ; regout           ;
+; |queue|i[25]                                                                 ; |queue|i[25]                                                                 ; regout           ;
+; |queue|i[26]                                                                 ; |queue|i[26]                                                                 ; regout           ;
+; |queue|i[27]                                                                 ; |queue|i[27]                                                                 ; regout           ;
+; |queue|i[28]                                                                 ; |queue|i[28]                                                                 ; regout           ;
+; |queue|i[29]                                                                 ; |queue|i[29]                                                                 ; regout           ;
+; |queue|i[30]                                                                 ; |queue|i[30]                                                                 ; regout           ;
+; |queue|i[31]                                                                 ; |queue|i[31]                                                                 ; regout           ;
+; |queue|io[7]                                                                 ; |queue|io[7]                                                                 ; out              ;
+; |queue|empty                                                                 ; |queue|empty                                                                 ; pin_out          ;
+; |queue|full                                                                  ; |queue|full                                                                  ; pin_out          ;
+; |queue|rw                                                                    ; |queue|rw                                                                    ; out              ;
+; |queue|out[6]                                                                ; |queue|out[6]                                                                ; pin_out          ;
+; |queue|out[7]                                                                ; |queue|out[7]                                                                ; pin_out          ;
+; |queue|register~0                                                            ; |queue|register~0                                                            ; out0             ;
+; |queue|register~6                                                            ; |queue|register~6                                                            ; out0             ;
+; |queue|register_rtl_0_bypass[5]                                              ; |queue|register_rtl_0_bypass[5]                                              ; regout           ;
+; |queue|register~7                                                            ; |queue|register~7                                                            ; out0             ;
+; |queue|register_rtl_0_bypass[6]                                              ; |queue|register_rtl_0_bypass[6]                                              ; regout           ;
+; |queue|register~8                                                            ; |queue|register~8                                                            ; out0             ;
+; |queue|register_rtl_0_bypass[7]                                              ; |queue|register_rtl_0_bypass[7]                                              ; regout           ;
+; |queue|register~9                                                            ; |queue|register~9                                                            ; out0             ;
+; |queue|register_rtl_0_bypass[8]                                              ; |queue|register_rtl_0_bypass[8]                                              ; regout           ;
+; |queue|register~10                                                           ; |queue|register~10                                                           ; out0             ;
+; |queue|register_rtl_0_bypass[9]                                              ; |queue|register_rtl_0_bypass[9]                                              ; regout           ;
+; |queue|register~17                                                           ; |queue|register~17                                                           ; out              ;
+; |queue|register~18                                                           ; |queue|register~18                                                           ; out              ;
+; |queue|register~25                                                           ; |queue|register~25                                                           ; out0             ;
+; |queue|register_rtl_0_bypass[21]                                             ; |queue|register_rtl_0_bypass[21]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[22]                                             ; |queue|register_rtl_0_bypass[22]                                             ; regout           ;
+; |queue|register~26                                                           ; |queue|register~26                                                           ; out0             ;
+; |queue|register_rtl_0_bypass[23]                                             ; |queue|register_rtl_0_bypass[23]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[24]                                             ; |queue|register_rtl_0_bypass[24]                                             ; regout           ;
+; |queue|register~27                                                           ; |queue|register~27                                                           ; out0             ;
+; |queue|register_rtl_0_bypass[25]                                             ; |queue|register_rtl_0_bypass[25]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[26]                                             ; |queue|register_rtl_0_bypass[26]                                             ; regout           ;
+; |queue|register~28                                                           ; |queue|register~28                                                           ; out0             ;
+; |queue|register_rtl_0_bypass[27]                                             ; |queue|register_rtl_0_bypass[27]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[28]                                             ; |queue|register_rtl_0_bypass[28]                                             ; regout           ;
+; |queue|register~29                                                           ; |queue|register~29                                                           ; out0             ;
+; |queue|register_rtl_0_bypass[29]                                             ; |queue|register_rtl_0_bypass[29]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[30]                                             ; |queue|register_rtl_0_bypass[30]                                             ; regout           ;
+; |queue|register~36                                                           ; |queue|register~36                                                           ; out              ;
+; |queue|register~37                                                           ; |queue|register~37                                                           ; out              ;
+; |queue|register_rtl_0_bypass[38]                                             ; |queue|register_rtl_0_bypass[38]                                             ; regout           ;
+; |queue|Add0~7                                                                ; |queue|Add0~7                                                                ; out0             ;
+; |queue|Add0~8                                                                ; |queue|Add0~8                                                                ; out0             ;
+; |queue|Add0~9                                                                ; |queue|Add0~9                                                                ; out0             ;
+; |queue|Add0~10                                                               ; |queue|Add0~10                                                               ; out0             ;
+; |queue|Add0~11                                                               ; |queue|Add0~11                                                               ; out0             ;
+; |queue|Add0~12                                                               ; |queue|Add0~12                                                               ; out0             ;
+; |queue|Add0~13                                                               ; |queue|Add0~13                                                               ; out0             ;
+; |queue|Add0~14                                                               ; |queue|Add0~14                                                               ; out0             ;
+; |queue|Add0~15                                                               ; |queue|Add0~15                                                               ; out0             ;
+; |queue|Add0~16                                                               ; |queue|Add0~16                                                               ; out0             ;
+; |queue|Add0~17                                                               ; |queue|Add0~17                                                               ; out0             ;
+; |queue|Add0~18                                                               ; |queue|Add0~18                                                               ; out0             ;
+; |queue|Add0~19                                                               ; |queue|Add0~19                                                               ; out0             ;
+; |queue|Add0~20                                                               ; |queue|Add0~20                                                               ; out0             ;
+; |queue|Add0~21                                                               ; |queue|Add0~21                                                               ; out0             ;
+; |queue|Add0~22                                                               ; |queue|Add0~22                                                               ; out0             ;
+; |queue|Add0~23                                                               ; |queue|Add0~23                                                               ; out0             ;
+; |queue|Add0~24                                                               ; |queue|Add0~24                                                               ; out0             ;
+; |queue|Add0~25                                                               ; |queue|Add0~25                                                               ; out0             ;
+; |queue|Add0~26                                                               ; |queue|Add0~26                                                               ; out0             ;
+; |queue|Add0~27                                                               ; |queue|Add0~27                                                               ; out0             ;
+; |queue|Add0~28                                                               ; |queue|Add0~28                                                               ; out0             ;
+; |queue|Add0~29                                                               ; |queue|Add0~29                                                               ; out0             ;
+; |queue|Add0~30                                                               ; |queue|Add0~30                                                               ; out0             ;
+; |queue|Add0~31                                                               ; |queue|Add0~31                                                               ; out0             ;
+; |queue|Add0~32                                                               ; |queue|Add0~32                                                               ; out0             ;
+; |queue|Add0~33                                                               ; |queue|Add0~33                                                               ; out0             ;
+; |queue|Add0~34                                                               ; |queue|Add0~34                                                               ; out0             ;
+; |queue|Add0~35                                                               ; |queue|Add0~35                                                               ; out0             ;
+; |queue|Add0~36                                                               ; |queue|Add0~36                                                               ; out0             ;
+; |queue|Add0~37                                                               ; |queue|Add0~37                                                               ; out0             ;
+; |queue|Add0~38                                                               ; |queue|Add0~38                                                               ; out0             ;
+; |queue|Add0~39                                                               ; |queue|Add0~39                                                               ; out0             ;
+; |queue|Add0~40                                                               ; |queue|Add0~40                                                               ; out0             ;
+; |queue|Add0~41                                                               ; |queue|Add0~41                                                               ; out0             ;
+; |queue|Add0~42                                                               ; |queue|Add0~42                                                               ; out0             ;
+; |queue|Add0~43                                                               ; |queue|Add0~43                                                               ; out0             ;
+; |queue|Add0~44                                                               ; |queue|Add0~44                                                               ; out0             ;
+; |queue|Add0~45                                                               ; |queue|Add0~45                                                               ; out0             ;
+; |queue|Add0~46                                                               ; |queue|Add0~46                                                               ; out0             ;
+; |queue|Add0~47                                                               ; |queue|Add0~47                                                               ; out0             ;
+; |queue|Add0~48                                                               ; |queue|Add0~48                                                               ; out0             ;
+; |queue|Add0~49                                                               ; |queue|Add0~49                                                               ; out0             ;
+; |queue|Add0~50                                                               ; |queue|Add0~50                                                               ; out0             ;
+; |queue|Add0~51                                                               ; |queue|Add0~51                                                               ; out0             ;
+; |queue|Add0~52                                                               ; |queue|Add0~52                                                               ; out0             ;
+; |queue|Add0~53                                                               ; |queue|Add0~53                                                               ; out0             ;
+; |queue|Add0~54                                                               ; |queue|Add0~54                                                               ; out0             ;
+; |queue|Add0~55                                                               ; |queue|Add0~55                                                               ; out0             ;
+; |queue|Add0~56                                                               ; |queue|Add0~56                                                               ; out0             ;
+; |queue|Add0~57                                                               ; |queue|Add0~57                                                               ; out0             ;
+; |queue|Add0~58                                                               ; |queue|Add0~58                                                               ; out0             ;
+; |queue|Add0~59                                                               ; |queue|Add0~59                                                               ; out0             ;
+; |queue|Add0~60                                                               ; |queue|Add0~60                                                               ; out0             ;
+; |queue|Add1~9                                                                ; |queue|Add1~9                                                                ; out0             ;
+; |queue|Add1~10                                                               ; |queue|Add1~10                                                               ; out0             ;
+; |queue|Add1~11                                                               ; |queue|Add1~11                                                               ; out0             ;
+; |queue|Add1~12                                                               ; |queue|Add1~12                                                               ; out0             ;
+; |queue|Add1~13                                                               ; |queue|Add1~13                                                               ; out0             ;
+; |queue|Add1~14                                                               ; |queue|Add1~14                                                               ; out0             ;
+; |queue|Add1~15                                                               ; |queue|Add1~15                                                               ; out0             ;
+; |queue|Add1~16                                                               ; |queue|Add1~16                                                               ; out0             ;
+; |queue|Add1~17                                                               ; |queue|Add1~17                                                               ; out0             ;
+; |queue|Add1~18                                                               ; |queue|Add1~18                                                               ; out0             ;
+; |queue|Add1~19                                                               ; |queue|Add1~19                                                               ; out0             ;
+; |queue|Add1~20                                                               ; |queue|Add1~20                                                               ; out0             ;
+; |queue|Add1~21                                                               ; |queue|Add1~21                                                               ; out0             ;
+; |queue|Add1~22                                                               ; |queue|Add1~22                                                               ; out0             ;
+; |queue|Add1~23                                                               ; |queue|Add1~23                                                               ; out0             ;
+; |queue|Add1~24                                                               ; |queue|Add1~24                                                               ; out0             ;
+; |queue|Add1~25                                                               ; |queue|Add1~25                                                               ; out0             ;
+; |queue|Add1~26                                                               ; |queue|Add1~26                                                               ; out0             ;
+; |queue|Add1~27                                                               ; |queue|Add1~27                                                               ; out0             ;
+; |queue|Add1~28                                                               ; |queue|Add1~28                                                               ; out0             ;
+; |queue|Add1~29                                                               ; |queue|Add1~29                                                               ; out0             ;
+; |queue|Add1~30                                                               ; |queue|Add1~30                                                               ; out0             ;
+; |queue|Add1~31                                                               ; |queue|Add1~31                                                               ; out0             ;
+; |queue|Add1~32                                                               ; |queue|Add1~32                                                               ; out0             ;
+; |queue|Add1~33                                                               ; |queue|Add1~33                                                               ; out0             ;
+; |queue|Add1~34                                                               ; |queue|Add1~34                                                               ; out0             ;
+; |queue|Add1~35                                                               ; |queue|Add1~35                                                               ; out0             ;
+; |queue|Add1~36                                                               ; |queue|Add1~36                                                               ; out0             ;
+; |queue|Add1~37                                                               ; |queue|Add1~37                                                               ; out0             ;
+; |queue|Add1~38                                                               ; |queue|Add1~38                                                               ; out0             ;
+; |queue|Add1~39                                                               ; |queue|Add1~39                                                               ; out0             ;
+; |queue|Add1~40                                                               ; |queue|Add1~40                                                               ; out0             ;
+; |queue|Add1~41                                                               ; |queue|Add1~41                                                               ; out0             ;
+; |queue|Add1~42                                                               ; |queue|Add1~42                                                               ; out0             ;
+; |queue|Add1~43                                                               ; |queue|Add1~43                                                               ; out0             ;
+; |queue|Add1~44                                                               ; |queue|Add1~44                                                               ; out0             ;
+; |queue|Add1~45                                                               ; |queue|Add1~45                                                               ; out0             ;
+; |queue|Add1~46                                                               ; |queue|Add1~46                                                               ; out0             ;
+; |queue|Add1~47                                                               ; |queue|Add1~47                                                               ; out0             ;
+; |queue|Add1~48                                                               ; |queue|Add1~48                                                               ; out0             ;
+; |queue|Add1~49                                                               ; |queue|Add1~49                                                               ; out0             ;
+; |queue|Add1~50                                                               ; |queue|Add1~50                                                               ; out0             ;
+; |queue|Add1~51                                                               ; |queue|Add1~51                                                               ; out0             ;
+; |queue|Add1~52                                                               ; |queue|Add1~52                                                               ; out0             ;
+; |queue|Add1~53                                                               ; |queue|Add1~53                                                               ; out0             ;
+; |queue|Add1~54                                                               ; |queue|Add1~54                                                               ; out0             ;
+; |queue|Add1~55                                                               ; |queue|Add1~55                                                               ; out0             ;
+; |queue|Add1~56                                                               ; |queue|Add1~56                                                               ; out0             ;
+; |queue|Add1~57                                                               ; |queue|Add1~57                                                               ; out0             ;
+; |queue|Add1~58                                                               ; |queue|Add1~58                                                               ; out0             ;
+; |queue|Add1~59                                                               ; |queue|Add1~59                                                               ; out0             ;
+; |queue|Add1~60                                                               ; |queue|Add1~60                                                               ; out0             ;
+; |queue|Equal0~0                                                              ; |queue|Equal0~0                                                              ; out0             ;
+; |queue|Equal1~0                                                              ; |queue|Equal1~0                                                              ; out0             ;
+; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ram_block1a6 ; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ram_block1a6 ; portbdataout0    ;
+; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ram_block1a7 ; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ram_block1a7 ; portbdataout0    ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                       ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+------------------+
+; Node Name                                                                    ; Output Port Name                                                             ; Output Port Type ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+------------------+
+; |queue|k[6]                                                                  ; |queue|k[6]                                                                  ; regout           ;
+; |queue|i~0                                                                   ; |queue|i~0                                                                   ; out              ;
+; |queue|i~1                                                                   ; |queue|i~1                                                                   ; out              ;
+; |queue|i~2                                                                   ; |queue|i~2                                                                   ; out              ;
+; |queue|i~3                                                                   ; |queue|i~3                                                                   ; out              ;
+; |queue|i~4                                                                   ; |queue|i~4                                                                   ; out              ;
+; |queue|i~5                                                                   ; |queue|i~5                                                                   ; out              ;
+; |queue|i~6                                                                   ; |queue|i~6                                                                   ; out              ;
+; |queue|i~7                                                                   ; |queue|i~7                                                                   ; out              ;
+; |queue|i~8                                                                   ; |queue|i~8                                                                   ; out              ;
+; |queue|i~9                                                                   ; |queue|i~9                                                                   ; out              ;
+; |queue|i~10                                                                  ; |queue|i~10                                                                  ; out              ;
+; |queue|i~11                                                                  ; |queue|i~11                                                                  ; out              ;
+; |queue|i~12                                                                  ; |queue|i~12                                                                  ; out              ;
+; |queue|i~13                                                                  ; |queue|i~13                                                                  ; out              ;
+; |queue|i~14                                                                  ; |queue|i~14                                                                  ; out              ;
+; |queue|i~15                                                                  ; |queue|i~15                                                                  ; out              ;
+; |queue|i~16                                                                  ; |queue|i~16                                                                  ; out              ;
+; |queue|i~17                                                                  ; |queue|i~17                                                                  ; out              ;
+; |queue|i~18                                                                  ; |queue|i~18                                                                  ; out              ;
+; |queue|i~19                                                                  ; |queue|i~19                                                                  ; out              ;
+; |queue|i~20                                                                  ; |queue|i~20                                                                  ; out              ;
+; |queue|i~21                                                                  ; |queue|i~21                                                                  ; out              ;
+; |queue|i~22                                                                  ; |queue|i~22                                                                  ; out              ;
+; |queue|i~23                                                                  ; |queue|i~23                                                                  ; out              ;
+; |queue|i~24                                                                  ; |queue|i~24                                                                  ; out              ;
+; |queue|i~25                                                                  ; |queue|i~25                                                                  ; out              ;
+; |queue|i~26                                                                  ; |queue|i~26                                                                  ; out              ;
+; |queue|i~27                                                                  ; |queue|i~27                                                                  ; out              ;
+; |queue|full~reg0                                                             ; |queue|full~reg0                                                             ; regout           ;
+; |queue|empty~reg0                                                            ; |queue|empty~reg0                                                            ; regout           ;
+; |queue|k~0                                                                   ; |queue|k~0                                                                   ; out              ;
+; |queue|k~1                                                                   ; |queue|k~1                                                                   ; out              ;
+; |queue|k~2                                                                   ; |queue|k~2                                                                   ; out              ;
+; |queue|k~3                                                                   ; |queue|k~3                                                                   ; out              ;
+; |queue|k~4                                                                   ; |queue|k~4                                                                   ; out              ;
+; |queue|k~5                                                                   ; |queue|k~5                                                                   ; out              ;
+; |queue|k~6                                                                   ; |queue|k~6                                                                   ; out              ;
+; |queue|k~7                                                                   ; |queue|k~7                                                                   ; out              ;
+; |queue|k~8                                                                   ; |queue|k~8                                                                   ; out              ;
+; |queue|k~9                                                                   ; |queue|k~9                                                                   ; out              ;
+; |queue|k~10                                                                  ; |queue|k~10                                                                  ; out              ;
+; |queue|k~11                                                                  ; |queue|k~11                                                                  ; out              ;
+; |queue|k~12                                                                  ; |queue|k~12                                                                  ; out              ;
+; |queue|k~13                                                                  ; |queue|k~13                                                                  ; out              ;
+; |queue|k~14                                                                  ; |queue|k~14                                                                  ; out              ;
+; |queue|k~15                                                                  ; |queue|k~15                                                                  ; out              ;
+; |queue|k~16                                                                  ; |queue|k~16                                                                  ; out              ;
+; |queue|k~17                                                                  ; |queue|k~17                                                                  ; out              ;
+; |queue|k~18                                                                  ; |queue|k~18                                                                  ; out              ;
+; |queue|k~19                                                                  ; |queue|k~19                                                                  ; out              ;
+; |queue|k~20                                                                  ; |queue|k~20                                                                  ; out              ;
+; |queue|k~21                                                                  ; |queue|k~21                                                                  ; out              ;
+; |queue|k~22                                                                  ; |queue|k~22                                                                  ; out              ;
+; |queue|k~23                                                                  ; |queue|k~23                                                                  ; out              ;
+; |queue|k~24                                                                  ; |queue|k~24                                                                  ; out              ;
+; |queue|k~25                                                                  ; |queue|k~25                                                                  ; out              ;
+; |queue|k[5]                                                                  ; |queue|k[5]                                                                  ; regout           ;
+; |queue|k[4]                                                                  ; |queue|k[4]                                                                  ; regout           ;
+; |queue|k[7]                                                                  ; |queue|k[7]                                                                  ; regout           ;
+; |queue|k[8]                                                                  ; |queue|k[8]                                                                  ; regout           ;
+; |queue|k[9]                                                                  ; |queue|k[9]                                                                  ; regout           ;
+; |queue|k[10]                                                                 ; |queue|k[10]                                                                 ; regout           ;
+; |queue|k[11]                                                                 ; |queue|k[11]                                                                 ; regout           ;
+; |queue|k[12]                                                                 ; |queue|k[12]                                                                 ; regout           ;
+; |queue|k[13]                                                                 ; |queue|k[13]                                                                 ; regout           ;
+; |queue|k[14]                                                                 ; |queue|k[14]                                                                 ; regout           ;
+; |queue|k[15]                                                                 ; |queue|k[15]                                                                 ; regout           ;
+; |queue|k[16]                                                                 ; |queue|k[16]                                                                 ; regout           ;
+; |queue|k[17]                                                                 ; |queue|k[17]                                                                 ; regout           ;
+; |queue|k[18]                                                                 ; |queue|k[18]                                                                 ; regout           ;
+; |queue|k[19]                                                                 ; |queue|k[19]                                                                 ; regout           ;
+; |queue|k[20]                                                                 ; |queue|k[20]                                                                 ; regout           ;
+; |queue|k[21]                                                                 ; |queue|k[21]                                                                 ; regout           ;
+; |queue|k[22]                                                                 ; |queue|k[22]                                                                 ; regout           ;
+; |queue|k[23]                                                                 ; |queue|k[23]                                                                 ; regout           ;
+; |queue|k[24]                                                                 ; |queue|k[24]                                                                 ; regout           ;
+; |queue|k[25]                                                                 ; |queue|k[25]                                                                 ; regout           ;
+; |queue|k[26]                                                                 ; |queue|k[26]                                                                 ; regout           ;
+; |queue|k[27]                                                                 ; |queue|k[27]                                                                 ; regout           ;
+; |queue|k[28]                                                                 ; |queue|k[28]                                                                 ; regout           ;
+; |queue|k[29]                                                                 ; |queue|k[29]                                                                 ; regout           ;
+; |queue|k[30]                                                                 ; |queue|k[30]                                                                 ; regout           ;
+; |queue|k[31]                                                                 ; |queue|k[31]                                                                 ; regout           ;
+; |queue|out[0]~reg0                                                           ; |queue|out[0]~reg0                                                           ; regout           ;
+; |queue|out[5]~reg0                                                           ; |queue|out[5]~reg0                                                           ; regout           ;
+; |queue|out[6]~reg0                                                           ; |queue|out[6]~reg0                                                           ; regout           ;
+; |queue|out[7]~reg0                                                           ; |queue|out[7]~reg0                                                           ; regout           ;
+; |queue|i[4]                                                                  ; |queue|i[4]                                                                  ; regout           ;
+; |queue|i[5]                                                                  ; |queue|i[5]                                                                  ; regout           ;
+; |queue|i[6]                                                                  ; |queue|i[6]                                                                  ; regout           ;
+; |queue|i[7]                                                                  ; |queue|i[7]                                                                  ; regout           ;
+; |queue|i[8]                                                                  ; |queue|i[8]                                                                  ; regout           ;
+; |queue|i[9]                                                                  ; |queue|i[9]                                                                  ; regout           ;
+; |queue|i[10]                                                                 ; |queue|i[10]                                                                 ; regout           ;
+; |queue|i[11]                                                                 ; |queue|i[11]                                                                 ; regout           ;
+; |queue|i[12]                                                                 ; |queue|i[12]                                                                 ; regout           ;
+; |queue|i[13]                                                                 ; |queue|i[13]                                                                 ; regout           ;
+; |queue|i[14]                                                                 ; |queue|i[14]                                                                 ; regout           ;
+; |queue|i[15]                                                                 ; |queue|i[15]                                                                 ; regout           ;
+; |queue|i[16]                                                                 ; |queue|i[16]                                                                 ; regout           ;
+; |queue|i[17]                                                                 ; |queue|i[17]                                                                 ; regout           ;
+; |queue|i[18]                                                                 ; |queue|i[18]                                                                 ; regout           ;
+; |queue|i[19]                                                                 ; |queue|i[19]                                                                 ; regout           ;
+; |queue|i[20]                                                                 ; |queue|i[20]                                                                 ; regout           ;
+; |queue|i[21]                                                                 ; |queue|i[21]                                                                 ; regout           ;
+; |queue|i[22]                                                                 ; |queue|i[22]                                                                 ; regout           ;
+; |queue|i[23]                                                                 ; |queue|i[23]                                                                 ; regout           ;
+; |queue|i[24]                                                                 ; |queue|i[24]                                                                 ; regout           ;
+; |queue|i[25]                                                                 ; |queue|i[25]                                                                 ; regout           ;
+; |queue|i[26]                                                                 ; |queue|i[26]                                                                 ; regout           ;
+; |queue|i[27]                                                                 ; |queue|i[27]                                                                 ; regout           ;
+; |queue|i[28]                                                                 ; |queue|i[28]                                                                 ; regout           ;
+; |queue|i[29]                                                                 ; |queue|i[29]                                                                 ; regout           ;
+; |queue|i[30]                                                                 ; |queue|i[30]                                                                 ; regout           ;
+; |queue|i[31]                                                                 ; |queue|i[31]                                                                 ; regout           ;
+; |queue|io[6]                                                                 ; |queue|io[6]                                                                 ; out              ;
+; |queue|io[7]                                                                 ; |queue|io[7]                                                                 ; out              ;
+; |queue|empty                                                                 ; |queue|empty                                                                 ; pin_out          ;
+; |queue|full                                                                  ; |queue|full                                                                  ; pin_out          ;
+; |queue|out[0]                                                                ; |queue|out[0]                                                                ; pin_out          ;
+; |queue|out[5]                                                                ; |queue|out[5]                                                                ; pin_out          ;
+; |queue|out[6]                                                                ; |queue|out[6]                                                                ; pin_out          ;
+; |queue|out[7]                                                                ; |queue|out[7]                                                                ; pin_out          ;
+; |queue|register_rtl_0_bypass[4]                                              ; |queue|register_rtl_0_bypass[4]                                              ; regout           ;
+; |queue|register~6                                                            ; |queue|register~6                                                            ; out0             ;
+; |queue|register_rtl_0_bypass[5]                                              ; |queue|register_rtl_0_bypass[5]                                              ; regout           ;
+; |queue|register~7                                                            ; |queue|register~7                                                            ; out0             ;
+; |queue|register_rtl_0_bypass[6]                                              ; |queue|register_rtl_0_bypass[6]                                              ; regout           ;
+; |queue|register~8                                                            ; |queue|register~8                                                            ; out0             ;
+; |queue|register_rtl_0_bypass[7]                                              ; |queue|register_rtl_0_bypass[7]                                              ; regout           ;
+; |queue|register~9                                                            ; |queue|register~9                                                            ; out0             ;
+; |queue|register_rtl_0_bypass[8]                                              ; |queue|register_rtl_0_bypass[8]                                              ; regout           ;
+; |queue|register~10                                                           ; |queue|register~10                                                           ; out0             ;
+; |queue|register_rtl_0_bypass[9]                                              ; |queue|register_rtl_0_bypass[9]                                              ; regout           ;
+; |queue|register~11                                                           ; |queue|register~11                                                           ; out              ;
+; |queue|register_rtl_0_bypass[19]                                             ; |queue|register_rtl_0_bypass[19]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[20]                                             ; |queue|register_rtl_0_bypass[20]                                             ; regout           ;
+; |queue|register~25                                                           ; |queue|register~25                                                           ; out0             ;
+; |queue|register_rtl_0_bypass[21]                                             ; |queue|register_rtl_0_bypass[21]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[22]                                             ; |queue|register_rtl_0_bypass[22]                                             ; regout           ;
+; |queue|register~26                                                           ; |queue|register~26                                                           ; out0             ;
+; |queue|register_rtl_0_bypass[23]                                             ; |queue|register_rtl_0_bypass[23]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[24]                                             ; |queue|register_rtl_0_bypass[24]                                             ; regout           ;
+; |queue|register~27                                                           ; |queue|register~27                                                           ; out0             ;
+; |queue|register_rtl_0_bypass[25]                                             ; |queue|register_rtl_0_bypass[25]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[26]                                             ; |queue|register_rtl_0_bypass[26]                                             ; regout           ;
+; |queue|register~28                                                           ; |queue|register~28                                                           ; out0             ;
+; |queue|register_rtl_0_bypass[27]                                             ; |queue|register_rtl_0_bypass[27]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[28]                                             ; |queue|register_rtl_0_bypass[28]                                             ; regout           ;
+; |queue|register~29                                                           ; |queue|register~29                                                           ; out0             ;
+; |queue|register_rtl_0_bypass[29]                                             ; |queue|register_rtl_0_bypass[29]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[30]                                             ; |queue|register_rtl_0_bypass[30]                                             ; regout           ;
+; |queue|register~30                                                           ; |queue|register~30                                                           ; out              ;
+; |queue|register_rtl_0_bypass[31]                                             ; |queue|register_rtl_0_bypass[31]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[37]                                             ; |queue|register_rtl_0_bypass[37]                                             ; regout           ;
+; |queue|register_rtl_0_bypass[38]                                             ; |queue|register_rtl_0_bypass[38]                                             ; regout           ;
+; |queue|Add0~6                                                                ; |queue|Add0~6                                                                ; out0             ;
+; |queue|Add0~7                                                                ; |queue|Add0~7                                                                ; out0             ;
+; |queue|Add0~8                                                                ; |queue|Add0~8                                                                ; out0             ;
+; |queue|Add0~9                                                                ; |queue|Add0~9                                                                ; out0             ;
+; |queue|Add0~10                                                               ; |queue|Add0~10                                                               ; out0             ;
+; |queue|Add0~11                                                               ; |queue|Add0~11                                                               ; out0             ;
+; |queue|Add0~12                                                               ; |queue|Add0~12                                                               ; out0             ;
+; |queue|Add0~13                                                               ; |queue|Add0~13                                                               ; out0             ;
+; |queue|Add0~14                                                               ; |queue|Add0~14                                                               ; out0             ;
+; |queue|Add0~15                                                               ; |queue|Add0~15                                                               ; out0             ;
+; |queue|Add0~16                                                               ; |queue|Add0~16                                                               ; out0             ;
+; |queue|Add0~17                                                               ; |queue|Add0~17                                                               ; out0             ;
+; |queue|Add0~18                                                               ; |queue|Add0~18                                                               ; out0             ;
+; |queue|Add0~19                                                               ; |queue|Add0~19                                                               ; out0             ;
+; |queue|Add0~20                                                               ; |queue|Add0~20                                                               ; out0             ;
+; |queue|Add0~21                                                               ; |queue|Add0~21                                                               ; out0             ;
+; |queue|Add0~22                                                               ; |queue|Add0~22                                                               ; out0             ;
+; |queue|Add0~23                                                               ; |queue|Add0~23                                                               ; out0             ;
+; |queue|Add0~24                                                               ; |queue|Add0~24                                                               ; out0             ;
+; |queue|Add0~25                                                               ; |queue|Add0~25                                                               ; out0             ;
+; |queue|Add0~26                                                               ; |queue|Add0~26                                                               ; out0             ;
+; |queue|Add0~27                                                               ; |queue|Add0~27                                                               ; out0             ;
+; |queue|Add0~28                                                               ; |queue|Add0~28                                                               ; out0             ;
+; |queue|Add0~29                                                               ; |queue|Add0~29                                                               ; out0             ;
+; |queue|Add0~30                                                               ; |queue|Add0~30                                                               ; out0             ;
+; |queue|Add0~31                                                               ; |queue|Add0~31                                                               ; out0             ;
+; |queue|Add0~32                                                               ; |queue|Add0~32                                                               ; out0             ;
+; |queue|Add0~33                                                               ; |queue|Add0~33                                                               ; out0             ;
+; |queue|Add0~34                                                               ; |queue|Add0~34                                                               ; out0             ;
+; |queue|Add0~35                                                               ; |queue|Add0~35                                                               ; out0             ;
+; |queue|Add0~36                                                               ; |queue|Add0~36                                                               ; out0             ;
+; |queue|Add0~37                                                               ; |queue|Add0~37                                                               ; out0             ;
+; |queue|Add0~38                                                               ; |queue|Add0~38                                                               ; out0             ;
+; |queue|Add0~39                                                               ; |queue|Add0~39                                                               ; out0             ;
+; |queue|Add0~40                                                               ; |queue|Add0~40                                                               ; out0             ;
+; |queue|Add0~41                                                               ; |queue|Add0~41                                                               ; out0             ;
+; |queue|Add0~42                                                               ; |queue|Add0~42                                                               ; out0             ;
+; |queue|Add0~43                                                               ; |queue|Add0~43                                                               ; out0             ;
+; |queue|Add0~44                                                               ; |queue|Add0~44                                                               ; out0             ;
+; |queue|Add0~45                                                               ; |queue|Add0~45                                                               ; out0             ;
+; |queue|Add0~46                                                               ; |queue|Add0~46                                                               ; out0             ;
+; |queue|Add0~47                                                               ; |queue|Add0~47                                                               ; out0             ;
+; |queue|Add0~48                                                               ; |queue|Add0~48                                                               ; out0             ;
+; |queue|Add0~49                                                               ; |queue|Add0~49                                                               ; out0             ;
+; |queue|Add0~50                                                               ; |queue|Add0~50                                                               ; out0             ;
+; |queue|Add0~51                                                               ; |queue|Add0~51                                                               ; out0             ;
+; |queue|Add0~52                                                               ; |queue|Add0~52                                                               ; out0             ;
+; |queue|Add0~53                                                               ; |queue|Add0~53                                                               ; out0             ;
+; |queue|Add0~54                                                               ; |queue|Add0~54                                                               ; out0             ;
+; |queue|Add0~55                                                               ; |queue|Add0~55                                                               ; out0             ;
+; |queue|Add0~56                                                               ; |queue|Add0~56                                                               ; out0             ;
+; |queue|Add0~57                                                               ; |queue|Add0~57                                                               ; out0             ;
+; |queue|Add0~58                                                               ; |queue|Add0~58                                                               ; out0             ;
+; |queue|Add0~59                                                               ; |queue|Add0~59                                                               ; out0             ;
+; |queue|Add0~60                                                               ; |queue|Add0~60                                                               ; out0             ;
+; |queue|Add1~9                                                                ; |queue|Add1~9                                                                ; out0             ;
+; |queue|Add1~10                                                               ; |queue|Add1~10                                                               ; out0             ;
+; |queue|Add1~11                                                               ; |queue|Add1~11                                                               ; out0             ;
+; |queue|Add1~12                                                               ; |queue|Add1~12                                                               ; out0             ;
+; |queue|Add1~13                                                               ; |queue|Add1~13                                                               ; out0             ;
+; |queue|Add1~14                                                               ; |queue|Add1~14                                                               ; out0             ;
+; |queue|Add1~15                                                               ; |queue|Add1~15                                                               ; out0             ;
+; |queue|Add1~16                                                               ; |queue|Add1~16                                                               ; out0             ;
+; |queue|Add1~17                                                               ; |queue|Add1~17                                                               ; out0             ;
+; |queue|Add1~18                                                               ; |queue|Add1~18                                                               ; out0             ;
+; |queue|Add1~19                                                               ; |queue|Add1~19                                                               ; out0             ;
+; |queue|Add1~20                                                               ; |queue|Add1~20                                                               ; out0             ;
+; |queue|Add1~21                                                               ; |queue|Add1~21                                                               ; out0             ;
+; |queue|Add1~22                                                               ; |queue|Add1~22                                                               ; out0             ;
+; |queue|Add1~23                                                               ; |queue|Add1~23                                                               ; out0             ;
+; |queue|Add1~24                                                               ; |queue|Add1~24                                                               ; out0             ;
+; |queue|Add1~25                                                               ; |queue|Add1~25                                                               ; out0             ;
+; |queue|Add1~26                                                               ; |queue|Add1~26                                                               ; out0             ;
+; |queue|Add1~27                                                               ; |queue|Add1~27                                                               ; out0             ;
+; |queue|Add1~28                                                               ; |queue|Add1~28                                                               ; out0             ;
+; |queue|Add1~29                                                               ; |queue|Add1~29                                                               ; out0             ;
+; |queue|Add1~30                                                               ; |queue|Add1~30                                                               ; out0             ;
+; |queue|Add1~31                                                               ; |queue|Add1~31                                                               ; out0             ;
+; |queue|Add1~32                                                               ; |queue|Add1~32                                                               ; out0             ;
+; |queue|Add1~33                                                               ; |queue|Add1~33                                                               ; out0             ;
+; |queue|Add1~34                                                               ; |queue|Add1~34                                                               ; out0             ;
+; |queue|Add1~35                                                               ; |queue|Add1~35                                                               ; out0             ;
+; |queue|Add1~36                                                               ; |queue|Add1~36                                                               ; out0             ;
+; |queue|Add1~37                                                               ; |queue|Add1~37                                                               ; out0             ;
+; |queue|Add1~38                                                               ; |queue|Add1~38                                                               ; out0             ;
+; |queue|Add1~39                                                               ; |queue|Add1~39                                                               ; out0             ;
+; |queue|Add1~40                                                               ; |queue|Add1~40                                                               ; out0             ;
+; |queue|Add1~41                                                               ; |queue|Add1~41                                                               ; out0             ;
+; |queue|Add1~42                                                               ; |queue|Add1~42                                                               ; out0             ;
+; |queue|Add1~43                                                               ; |queue|Add1~43                                                               ; out0             ;
+; |queue|Add1~44                                                               ; |queue|Add1~44                                                               ; out0             ;
+; |queue|Add1~45                                                               ; |queue|Add1~45                                                               ; out0             ;
+; |queue|Add1~46                                                               ; |queue|Add1~46                                                               ; out0             ;
+; |queue|Add1~47                                                               ; |queue|Add1~47                                                               ; out0             ;
+; |queue|Add1~48                                                               ; |queue|Add1~48                                                               ; out0             ;
+; |queue|Add1~49                                                               ; |queue|Add1~49                                                               ; out0             ;
+; |queue|Add1~50                                                               ; |queue|Add1~50                                                               ; out0             ;
+; |queue|Add1~51                                                               ; |queue|Add1~51                                                               ; out0             ;
+; |queue|Add1~52                                                               ; |queue|Add1~52                                                               ; out0             ;
+; |queue|Add1~53                                                               ; |queue|Add1~53                                                               ; out0             ;
+; |queue|Add1~54                                                               ; |queue|Add1~54                                                               ; out0             ;
+; |queue|Add1~55                                                               ; |queue|Add1~55                                                               ; out0             ;
+; |queue|Add1~56                                                               ; |queue|Add1~56                                                               ; out0             ;
+; |queue|Add1~57                                                               ; |queue|Add1~57                                                               ; out0             ;
+; |queue|Add1~58                                                               ; |queue|Add1~58                                                               ; out0             ;
+; |queue|Add1~59                                                               ; |queue|Add1~59                                                               ; out0             ;
+; |queue|Add1~60                                                               ; |queue|Add1~60                                                               ; out0             ;
+; |queue|Equal0~0                                                              ; |queue|Equal0~0                                                              ; out0             ;
+; |queue|Equal1~0                                                              ; |queue|Equal1~0                                                              ; out0             ;
+; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ram_block1a0 ; |queue|altsyncram:register_rtl_0|altsyncram_6ec1:auto_generated|ram_block1a0 ; portbdataout0    ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Sun Nov 01 23:49:14 2020
+Info: Command: quartus_sim --simulation_results_format=VWF queue -c queue
+Info (324025): Using vector source file "D:/HocKi5/HDL/TEST/Queue_using_RAM1kB_PostSyn/Waveform.vwf"
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Warning (324036): Found clock-sensitive change during active clock edge at time 10.0 ns on register "|queue|out[0]~reg0"
+Warning (324036): Found clock-sensitive change during active clock edge at time 10.0 ns on register "|queue|register_rtl_0_bypass[31]"
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is      25.07 %
+Info (328052): Number of transitions in simulation is 1487
+Info (324045): Vector file queue.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4440 megabytes
+    Info: Processing ended: Sun Nov 01 23:49:14 2020
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+

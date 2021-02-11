@@ -1,0 +1,14 @@
+module ShiftParallel_NBIT(Out, Clk, In, IL, IR, Sel0, Sel1);
+	output [7:0] Out;
+	input [7:0] In;
+	input Clk, In, IL, IR, Sel0, Sel1;
+	wire w[10];
+	ShiftParallel_1BIT sh0(Out[0], Clk, Sel0, Sel1, In[0], IR, Out[1]);
+	ShiftParallel_1BIT sh1(Out[1], Clk, Sel0, Sel1, In[1], Out[0], Out[2]);
+	ShiftParallel_1BIT sh2(Out[2], Clk, Sel0, Sel1, In[2], Out[1], Out[3]);
+	ShiftParallel_1BIT sh3(Out[3], Clk, Sel0, Sel1, In[3], Out[2], Out[4]);
+	ShiftParallel_1BIT sh4(Out[4], Clk, Sel0, Sel1, In[4], Out[3], Out[5]);
+	ShiftParallel_1BIT sh5(Out[5], Clk, Sel0, Sel1, In[5], Out[4], Out[6]);
+	ShiftParallel_1BIT sh6(Out[6], Clk, Sel0, Sel1, In[6], Out[5], Out[7]);
+	ShiftParallel_1BIT sh7(Out[7], Clk, Sel0, Sel1, In[7], Out[6], IL);
+endmodule

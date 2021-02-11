@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vCounter_8BIT
+Z1 I_8oSfOWk;;1TYQ12eIS5a3
+Z2 VMmz@EOKF=B3kZB[4?PkY`2
+Z3 dD:\HDL\Counter\Post_Syn
+Z4 w1601226636
+Z5 8D:/HDL/Counter/simulation/modelsim/CounterParallel.vo
+Z6 FD:/HDL/Counter/simulation/modelsim/CounterParallel.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@counter_8@b@i@t
+!i10b 1
+Z10 !s100 lS4OkWOHV5liR<HJdfHlA2
+!s85 0
+Z11 !s108 1601226720.564000
+Z12 !s107 D:/HDL/Counter/simulation/modelsim/CounterParallel.vo|
+Z13 !s90 -reportprogress|300|-work|work|D:/HDL/Counter/simulation/modelsim/CounterParallel.vo|
+!s101 -O0
+vtb_Counter_8BIT
+!i10b 1
+!s100 b2PI2>Ed<35A2PgSSWh7T3
+IMc>Ga>jn7hQHoHDYVmN173
+V<;N9Nek?b7:blTPMU@L`N0
+R3
+w1600794996
+8D:/HDL/Counter/tb_Counter_8BIT.v
+FD:/HDL/Counter/tb_Counter_8BIT.v
+L0 2
+R7
+r1
+!s85 0
+31
+!s108 1601226720.828000
+!s107 D:/HDL/Counter/tb_Counter_8BIT.v|
+!s90 -reportprogress|300|-work|work|D:/HDL/Counter/tb_Counter_8BIT.v|
+!s101 -O0
+R8
+ntb_@counter_8@b@i@t

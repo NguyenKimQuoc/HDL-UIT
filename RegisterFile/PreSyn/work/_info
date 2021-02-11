@@ -1,0 +1,325 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vD_FlipFlop
+Z1 !s100 YGXjjlPfol0c20D8>gFCa2
+Z2 I:;ChBCTBBMd<?zGIK<V7i2
+Z3 VD4[8W`nJPfQX^3RNJd2=o3
+Z4 dD:\HDL\RegisterFile\PreSyn
+Z5 w1603040552
+Z6 8D:/HDL/RegisterFile/D_FlipFlip.v
+Z7 FD:/HDL/RegisterFile/D_FlipFlip.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s108 1603072753.564000
+Z10 !s107 D:/HDL/RegisterFile/D_FlipFlip.v|
+Z11 !s90 -reportprogress|300|-work|work|D:/HDL/RegisterFile/D_FlipFlip.v|
+Z12 o-work work -O0
+Z13 n@d_@flip@flop
+!i10b 1
+!s85 0
+!s101 -O0
+vD_Latch
+Z14 !s100 MnE7RJFAj2>o6J[OnkALf2
+Z15 ILP::1Nn9Y3NF1U@dVl]SX3
+Z16 VZ6J<O7UgLZ6iaA]eaNF?72
+R4
+R5
+R6
+R7
+L0 11
+R8
+r1
+31
+R9
+R10
+R11
+R12
+Z17 n@d_@latch
+!i10b 1
+!s85 0
+!s101 -O0
+vDecoder10to1024
+Z18 !s100 ?z4Jhh:?bAUe=PYg?cF=a3
+Z19 I2ZZlWaTjiIKl?zJ;bKS9X0
+Z20 VnJ=BkZDnW@;F]m@GEc@j41
+R4
+Z21 w1603041790
+Z22 8D:\HDL\RegisterFile\Decoder.v
+Z23 FD:\HDL\RegisterFile\Decoder.v
+L0 35
+R8
+r1
+31
+Z24 !s108 1603072753.900000
+Z25 !s107 D:\HDL\RegisterFile\Decoder.v|
+Z26 !s90 -reportprogress|300|-work|work|D:\HDL\RegisterFile\Decoder.v|
+R12
+Z27 n@decoder10to1024
+!i10b 1
+!s85 0
+!s101 -O0
+vDecoder2to4
+Z28 !s100 K=hb=E=;?mQg3^hLHccmh1
+Z29 In24mdTPj1Vi12olI9;nFG0
+Z30 VDdYWWC=9_RVK4cK@j1UIG3
+R4
+R21
+R22
+R23
+L0 1
+R8
+r1
+31
+R24
+R25
+R26
+R12
+Z31 n@decoder2to4
+!i10b 1
+!s85 0
+!s101 -O0
+vDecoder4to16
+Z32 !s100 ?nb99I5@?n2_4HNPW64kV1
+Z33 Ia?Id04@LVA7LQKeZldH_Z1
+Z34 V@CTBVh5mWeJZAEaOfj=2k2
+R4
+R21
+R22
+R23
+L0 10
+R8
+r1
+31
+R24
+R25
+R26
+R12
+Z35 n@decoder4to16
+!i10b 1
+!s85 0
+!s101 -O0
+vDecoder5to32
+Z36 !s100 K4AmB<InFP^?=E;el9D9^2
+Z37 I@:MI9AbBOoCJ2Vhdk`R361
+Z38 VSg0]dGMDMYnXKkdRXZoob3
+R4
+R21
+R22
+R23
+L0 18
+R8
+r1
+31
+R24
+R25
+R26
+R12
+Z39 n@decoder5to32
+!i10b 1
+!s85 0
+!s101 -O0
+vDecoder8to256
+Z40 !s100 cNV?[5SmJBe97h:Zj86860
+Z41 Id4>W9`cPZE:9DE>:dE=Xo2
+Z42 V?QF7JnzKTE<?5d`dX5=<20
+R4
+R21
+R22
+R23
+L0 27
+R8
+r1
+31
+R24
+R25
+R26
+R12
+Z43 n@decoder8to256
+!i10b 1
+!s85 0
+!s101 -O0
+vOutputLatch
+Z44 !s100 3Zb>=SR2_IjcWQO]lP;_g2
+Z45 I[<_F0RM7AB`MihWQRfF9O1
+Z46 Vl3DkdY:]J^_j^gjdL5bOP3
+R4
+Z47 w1603036070
+R6
+R7
+L0 23
+R8
+r1
+31
+Z48 !s108 1603040417.925000
+R10
+R11
+R12
+Z49 n@output@latch
+!i10b 1
+!s85 0
+!s101 -O0
+vRegister
+Z50 !s100 _2hAJ]<zJLSm[:<DmQeJ@0
+Z51 IPoQ06EQWL_]MYPQneF7NP2
+Z52 V_U3Q^C42TbkY2e=TQU1_M3
+R4
+Z53 w1603032263
+Z54 8D:/HDL/RegisterFile/Register.v
+Z55 FD:/HDL/RegisterFile/Register.v
+L0 1
+R8
+r1
+31
+Z56 !s90 -reportprogress|300|-work|work|D:/HDL/RegisterFile/Register.v|
+R12
+Z57 n@register
+Z58 !s108 1603072754.581000
+Z59 !s107 D:/HDL/RegisterFile/Register.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegisterFile
+Z60 !s100 mP71Alnoz]<K7V2`T3kNa1
+Z61 I1koaUCSdIU5[:TT4T1^Le0
+Z62 V9zh<h]D9HnR@jXfa4CE7<3
+R4
+Z63 w1603035199
+Z64 8D:\HDL\RegisterFile\RegisterFile.v
+Z65 FD:\HDL\RegisterFile\RegisterFile.v
+L0 1
+R8
+r1
+31
+Z66 !s90 -reportprogress|300|-work|work|D:\HDL\RegisterFile\RegisterFile.v|
+R12
+Z67 n@register@file
+Z68 !s108 1603072754.888000
+Z69 !s107 D:\HDL\RegisterFile\RegisterFile.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegisterFileCell
+Z70 !s100 h6d129h:FADbVZN_X_CoN1
+Z71 IeVUR6j0AcB;UKk4P^@JK22
+Z72 Vi9G5DiKf`2fUTFh3=WgW42
+R4
+Z73 w1603040567
+Z74 8D:\HDL\RegisterFile\RegisterFileCell.v
+Z75 FD:\HDL\RegisterFile\RegisterFileCell.v
+L0 1
+R8
+r1
+31
+Z76 !s108 1603072755.106000
+Z77 !s107 D:\HDL\RegisterFile\RegisterFileCell.v|
+Z78 !s90 -reportprogress|300|-work|work|D:\HDL\RegisterFile\RegisterFileCell.v|
+R12
+Z79 n@register@file@cell
+!i10b 1
+!s85 0
+!s101 -O0
+vRegisterFileCell_NBIT
+Z80 !s100 Ybf4AO]Obh8CC9YbfD89z1
+Z81 IWbj`S1<_XhPf6zG[7zFZd3
+Z82 Vof<7Gb>E;5z@GniFz4oc80
+R4
+R73
+R74
+R75
+L0 13
+R8
+r1
+31
+R76
+R77
+R78
+R12
+Z83 n@register@file@cell_@n@b@i@t
+!i10b 1
+!s85 0
+!s101 -O0
+vResetLatch
+Z84 !s100 zQJhf:5EFA_`63C=<bl_o0
+Z85 I@;`YJdDM=GdFSaRFSgIR30
+Z86 Vh;R@E51bo`bWDPMIYXblF0
+R4
+R47
+R6
+R7
+L0 17
+R8
+r1
+31
+R48
+R10
+R11
+R12
+Z87 n@reset@latch
+!i10b 1
+!s85 0
+!s101 -O0
+vSetLatch
+Z88 !s100 Ni;LR6NTFRZb:mg^AJEkN0
+Z89 I;lh2iiJM643B8lNL[BUBD0
+Z90 V0VZ45Mk98=SU8L=jRbjaJ1
+R4
+R47
+R6
+R7
+L0 10
+R8
+r1
+31
+R48
+R10
+R11
+R12
+Z91 n@set@latch
+!i10b 1
+!s85 0
+!s101 -O0
+vTestBench
+Z92 !s100 n9DV4aM<?[ZZ`hOFGR4T@2
+Z93 IgBMjz:Ne::2JRj0k`WmC71
+Z94 V^Yhm5^kEh_h2I_`<`O:8a2
+R4
+Z95 w1603069835
+Z96 8D:\HDL\RegisterFile\testbench.v
+Z97 FD:\HDL\RegisterFile\testbench.v
+L0 2
+R8
+r1
+31
+Z98 !s90 -reportprogress|300|-work|work|D:\HDL\RegisterFile\testbench.v|
+R12
+Z99 n@test@bench
+Z100 !s108 1603072755.432000
+Z101 !s107 D:\HDL\RegisterFile\testbench.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTestDecoder
+!i10b 1
+!s100 BO3E_Y79dffK6a7:DRePL0
+Il^IT<3Q[4RTG;DD3T9MHe1
+Z102 VA:Rh0<;@mal>?hJXW58j[1
+R4
+w1603072827
+Z103 8D:\HDL\RegisterFile\PreSyn\testdecoder.v
+Z104 FD:\HDL\RegisterFile\PreSyn\testdecoder.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1603072831.097000
+!s107 D:\HDL\RegisterFile\PreSyn\testdecoder.v|
+Z105 !s90 -reportprogress|300|-work|work|D:\HDL\RegisterFile\PreSyn\testdecoder.v|
+!s101 -O0
+R12
+Z106 n@test@decoder

@@ -1,0 +1,62 @@
+`timescale 1ns/1ps
+module TestRam();
+  parameter k=50;
+  
+  reg [7:0]  bus;
+  wire [7:0] data_out;
+  reg [9:0] addr;
+  reg RWS, clk;
+  
+   assign data_out = RWS? bus : 8'bz; 
+    
+   Ram A(.IO(data_out), .Address(addr), .RWS(RWS),.CS(clk));
+   
+  initial begin
+  clk = 1;
+  RWS = 0;
+  addr = 8'd000;
+  #k#k#k#k   addr = 8'd217; RWS = 0; bus = 8'd10;
+  
+  #k#k#k#k addr = 10'd217; RWS = 0; bus = 8'd100;  
+  #k#k#k#k addr = 10'd708; RWS = 0; bus = 8'd037;  
+  #k#k#k#k addr = 10'd918; RWS = 1; bus = 8'd10;  
+  #k#k#k#k addr = 10'd618; RWS = 0; bus = 8'd100;
+    
+  #k#k#k#k addr = 10'd000; RWS = 1; bus = 8'd095;  
+  #k#k#k#k addr = 10'd004; RWS = 1; bus = 8'd162;  
+  #k#k#k#k addr = 10'd826; RWS = 1; bus = 8'd123;  
+  #k#k#k#k addr = 10'd547; RWS = 1; bus = 8'd086;  
+    
+  #k#k#k#k  addr = 10'd010; RWS = 0; bus = 8'd10;  
+  #k#k#k#k  addr = 10'd020; RWS = 0; bus = 8'd100;  
+  #k#k#k#k  addr = 10'd000; RWS = 0; bus = 8'd10;  
+  #k#k#k#k  addr = 10'd004; RWS = 0; bus = 8'd100;
+  
+    
+  #k#k#k#k  addr = 10'd000; RWS = 1; bus = 8'd238;  
+  #k#k#k#k  addr = 10'd294; RWS = 1; bus = 8'd197;  
+  #k#k#k#k  addr = 10'd486; RWS = 1; bus = 8'd025;  
+  #k#k#k#k  addr = 10'd004; RWS = 1; bus = 8'd251;
+      
+  #k#k#k#k  addr = 10'd512; RWS = 1; bus = 8'd230;  
+  #k#k#k#k  addr = 10'd477; RWS = 1; bus = 8'd207;  
+  #k#k#k#k  addr = 10'd363; RWS = 1; bus = 8'd079;  
+  #k#k#k#k  addr = 10'd875; RWS = 1; bus = 8'd143;
+    
+  #k#k#k#k  addr = 10'd000; RWS = 0; bus = 8'd100;  
+  #k#k#k#k  addr = 10'd004; RWS = 0; bus = 8'd10;  
+  #k#k#k#k  addr = 10'd875; RWS = 0; bus = 8'd100;  
+  #k#k#k#k  addr = 10'd512; RWS = 0; bus = 8'd10;
+    
+  #k#k#k#k  addr = 10'd477; RWS = 0; bus = 8'dz;
+
+  #k#k#k#k 
+  $finish;
+  end
+  
+  always @ (clk) begin
+    #k#k
+    clk <= ~clk;
+  end
+endmodule    
+    

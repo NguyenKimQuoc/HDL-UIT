@@ -1,0 +1,80 @@
+D:/HDL/Stack/PreSyn/tb_Stack.v {1 {vlog -work work {D:\HDL\Stack\PreSyn\tb_Stack.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TestStack
+
+Top level modules:
+	TestStack
+
+} {} {}} D:/HDL/Stack/Counter_1BIT.v {1 {vlog -work work D:/HDL/Stack/Counter_1BIT.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Counter_1BIT
+
+Top level modules:
+	Counter_1BIT
+
+} {} {}} D:/HDL/Stack/Ram.v {1 {vlog -work work {D:\HDL\Stack\Ram.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Ram
+
+Top level modules:
+	Ram
+
+} {} {}} D:/HDL/Stack/Counter_NBIT.v {1 {vlog -work work {D:\HDL\Stack\Counter_NBIT.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Counter_NBIT
+
+Top level modules:
+	Counter_NBIT
+
+} {} {}} D:/HDL/Stack/HAS.v {1 {vlog -work work D:/HDL/Stack/HAS.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module HAS
+
+Top level modules:
+	HAS
+
+} {} {}} D:/HDL/Stack/Mux21_1BIT.v {1 {vlog -work work D:/HDL/Stack/Mux21_1BIT.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Mux21_1BIT
+
+Top level modules:
+	Mux21_1BIT
+
+} {} {}} D:/HDL/Stack/D_FlipFlip.v {1 {vlog -work work D:/HDL/Stack/D_FlipFlip.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module D_FlipFlop
+-- Compiling module SetLatch
+-- Compiling module ResetLatch
+-- Compiling module OutputLatch
+-- Compiling module D_Latch
+
+Top level modules:
+	D_FlipFlop
+	D_Latch
+
+} {} {}} D:/HDL/Stack/MCell.v {1 {vlog -work work {D:\HDL\Stack\MCell.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MCell_1BIT
+-- Compiling module MCell
+
+Top level modules:
+	MCell
+
+} {} {}} D:/HDL/Stack/Stack.v {1 {vlog -work work {D:\HDL\Stack\Stack.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Stack
+
+Top level modules:
+	Stack
+
+} {} {}} D:/HDL/Stack/Decoder.v {1 {vlog -work work {D:\HDL\Stack\Decoder.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Decoder2to4
+-- Compiling module Decoder4to16
+-- Compiling module Decoder8to256
+-- Compiling module Decoder10to1024
+
+Top level modules:
+	Decoder10to1024
+
+} {} {}}

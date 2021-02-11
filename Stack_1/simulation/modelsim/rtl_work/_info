@@ -1,0 +1,362 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\HDL\Stack\simulation\modelsim
+vCounter_1BIT
+IHX6kV]A=FYIUeAVjl76^o3
+VSnZY@o3<F]`081odKaT_D0
+Z1 dD:\HDL\Stack\simulation\modelsim
+w1602434692
+8D:/HDL/Stack/Counter_1BIT.v
+FD:/HDL/Stack/Counter_1BIT.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/HDL/Stack -O0
+n@counter_1@b@i@t
+!i10b 1
+!s100 Gh2QD4XGMg`WR;4XFKa2a1
+!s85 0
+!s108 1602437643.117000
+!s107 D:/HDL/Stack/Counter_1BIT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Stack|D:/HDL/Stack/Counter_1BIT.v|
+!s101 -O0
+vCounter_NBIT
+I^bI5RojBme8QoV58G`=B<1
+VBOAMKYF[5IMLQc>2a1NQh0
+R1
+w1602436111
+8D:/HDL/Stack/Counter_NBIT.v
+FD:/HDL/Stack/Counter_NBIT.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@counter_@n@b@i@t
+!i10b 1
+!s100 5oK2Dn<8`[CUD=z@VN0Oj3
+!s85 0
+!s108 1602437643.330000
+!s107 D:/HDL/Stack/Counter_NBIT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Stack|D:/HDL/Stack/Counter_NBIT.v|
+!s101 -O0
+vD_FlipFlop
+InM[3V]L>ITRKI:4Fh<FHY1
+V2gJ6;oW^1]6QaP_QKzMz=2
+R1
+Z5 w1602437212
+Z6 8D:/HDL/Stack/D_FlipFlop.v
+Z7 FD:/HDL/Stack/D_FlipFlop.v
+L0 1
+R2
+r1
+31
+Z8 !s108 1602437641.620000
+Z9 !s107 D:/HDL/Stack/D_FlipFlop.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Stack|D:/HDL/Stack/D_FlipFlop.v|
+R3
+R4
+n@d_@flip@flop
+!i10b 1
+!s100 m]Dh`@b^Go6:mM=LOk7TP3
+!s85 0
+!s101 -O0
+vD_Latch
+IOa8FAc2l>=X]fe<=X;k0C1
+VZ6J<O7UgLZ6iaA]eaNF?72
+R1
+R5
+R6
+R7
+L0 30
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+n@d_@latch
+!i10b 1
+!s100 chb9j?I`m1ESPXSMXER_P1
+!s85 0
+!s101 -O0
+vDecoder10to1024
+IGG:hW^@ZbMdUz_gDYdgNA2
+VnJ=BkZDnW@;F]m@GEc@j41
+R1
+Z11 w1601823845
+Z12 8D:/HDL/Stack/Decoder.v
+Z13 FD:/HDL/Stack/Decoder.v
+L0 26
+R2
+r1
+31
+Z14 !s108 1602437642.356000
+Z15 !s107 D:/HDL/Stack/Decoder.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Stack|D:/HDL/Stack/Decoder.v|
+R3
+R4
+n@decoder10to1024
+!i10b 1
+!s100 3JJ?hmi7RbPJHWzI<6I281
+!s85 0
+!s101 -O0
+vDecoder2to4
+I5]QO6NR]g8Se>0DijOZa;3
+VDdYWWC=9_RVK4cK@j1UIG3
+R1
+R11
+R12
+R13
+L0 1
+R2
+r1
+31
+R14
+R15
+R16
+R3
+R4
+n@decoder2to4
+!i10b 1
+!s100 SoNZ]aJ@cjmI9GJFS9`BH3
+!s85 0
+!s101 -O0
+vDecoder4to16
+IAkz9aL?8J01:z_Dm@N[TH0
+V@CTBVh5mWeJZAEaOfj=2k2
+R1
+R11
+R12
+R13
+L0 10
+R2
+r1
+31
+R14
+R15
+R16
+R3
+R4
+n@decoder4to16
+!i10b 1
+!s100 c[mU5`>TeYYiLk_j]F=1Z2
+!s85 0
+!s101 -O0
+vDecoder8to256
+I5B:dgBihKCUIoPT1BIzYG2
+V?QF7JnzKTE<?5d`dX5=<20
+R1
+R11
+R12
+R13
+L0 18
+R2
+r1
+31
+R14
+R15
+R16
+R3
+R4
+n@decoder8to256
+!i10b 1
+!s100 QIK;kLKToe>U[FX;:WkKV1
+!s85 0
+!s101 -O0
+vHAS
+I[M03?[Nz^j2NbR6LVb@Dj0
+VF;nBPEl94HUJR]@IQb[h13
+R1
+w1600710898
+8D:/HDL/Stack/HAS.v
+FD:/HDL/Stack/HAS.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@h@a@s
+!i10b 1
+!s100 SYQ[9TJIa[=;6dKf4h2z92
+!s85 0
+!s108 1602437641.385000
+!s107 D:/HDL/Stack/HAS.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Stack|D:/HDL/Stack/HAS.v|
+!s101 -O0
+vMCell
+ILj6]WhePaKG@R0=MHB_H_1
+VUD5Hmhj0HSHU:M>C@CjCD2
+R1
+Z17 w1601824483
+Z18 8D:/HDL/Stack/MCell.v
+Z19 FD:/HDL/Stack/MCell.v
+L0 11
+R2
+r1
+31
+Z20 !s108 1602437641.026000
+Z21 !s107 D:/HDL/Stack/MCell.v|
+Z22 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Stack|D:/HDL/Stack/MCell.v|
+R3
+R4
+n@m@cell
+!i10b 1
+!s100 Z?VZQX9n_;>GGCVZBDbF72
+!s85 0
+!s101 -O0
+vMCell_1BIT
+IK3[9RVnhjeD2P]OkKUamY0
+VF@_5?@455;]26z<=FX;F91
+R1
+R17
+R18
+R19
+L0 1
+R2
+r1
+31
+R20
+R21
+R22
+R3
+R4
+n@m@cell_1@b@i@t
+!i10b 1
+!s100 Vf1^zJ]=5FLhihcl<T=IZ0
+!s85 0
+!s101 -O0
+vMux21_1BIT
+IH`3=PcGf4DT`O=diN_ZA]2
+VA8VM4MzTf5]8eh;>PlH_b0
+R1
+w1600794959
+8D:/HDL/Stack/Mux21_1BIT.v
+FD:/HDL/Stack/Mux21_1BIT.v
+L0 1
+R2
+r1
+31
+R3
+n@mux21_1@b@i@t
+R4
+!i10b 1
+!s100 4M:AG;M:hd17h2JML=aem2
+!s85 0
+!s108 1602437640.786000
+!s107 D:/HDL/Stack/Mux21_1BIT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Stack|D:/HDL/Stack/Mux21_1BIT.v|
+!s101 -O0
+vOutputLatch
+I8e:oWTgffPOG9AKKd2gR`3
+Vl3DkdY:]J^_j^gjdL5bOP3
+R1
+R5
+R6
+R7
+L0 23
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+n@output@latch
+!i10b 1
+!s100 FUADD:KOQKDZ4cU`Ggm:l0
+!s85 0
+!s101 -O0
+vRam
+IIlOjmD]AFkk^4M[0>@6W92
+VKkn_E6<S=4TVT;n:l`z<d3
+R1
+w1601892885
+8D:/HDL/Stack/Ram.v
+FD:/HDL/Stack/Ram.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@ram
+!i10b 1
+!s100 =b[OD=FJ2XGJgP:;VO]L;0
+!s85 0
+!s108 1602437643.571000
+!s107 D:/HDL/Stack/Ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Stack|D:/HDL/Stack/Ram.v|
+!s101 -O0
+vResetLatch
+IR15MA2:]iIYlh58@E7bRM2
+Vh;R@E51bo`bWDPMIYXblF0
+R1
+R5
+R6
+R7
+L0 17
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+n@reset@latch
+!i10b 1
+!s100 MzXm>A>mE[P:J[lB0gfA42
+!s85 0
+!s101 -O0
+vSetLatch
+IQCL8OiF;E7oKlJ8>FGYg^0
+V0VZ45Mk98=SU8L=jRbjaJ1
+R1
+R5
+R6
+R7
+L0 10
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+n@set@latch
+!i10b 1
+!s100 V``O3:jo@XNE]B?=bhdhT0
+!s85 0
+!s101 -O0
+vStack
+!i10b 1
+!s100 iICm[<eH^7JB@o??KM4`:3
+If^HoTA9NLOL0=EjPehS333
+V8JQo:?OZV9SMS@A:^nB]z2
+R1
+w1602437424
+8D:/HDL/Stack/Stack.v
+FD:/HDL/Stack/Stack.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1602437643.746000
+!s107 D:/HDL/Stack/Stack.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Stack|D:/HDL/Stack/Stack.v|
+!s101 -O0
+R3
+R4
+n@stack

@@ -1,0 +1,36 @@
+`timescale 1ns/1ps
+module TestStack();
+  parameter k=50;
+  
+  reg [7:0] bus;
+  reg Reset, Enable, Push_Pop, clk;
+  wire Empty, Full;
+  wire [7:0] data_out, TopVal, TopVal_1, InRAM;
+  integer i;
+  initial clk = 0;
+  always @ (clk)
+  #50 clk <= ~clk;
+  assign bus =  (~Push_Pop) ? data_out : 8'bz;  
+  initial begin
+    clk=0;
+    Reset=0;
+    Enable=0;
+    Push_Pop=0;
+    bus=8'd0;
+    #150
+    Reset=1;
+    Enable=1;
+    for(i=0; i<=20; i=i+1) begin
+      bus = i + 8'd2;
+      #100;
+    end
+    Enable=0;
+    #200;
+    Enable=1;
+    Push_Pop=1;
+    #2200 $finish;
+  end
+  Stack a(.IO(data_out), .Full(Full), .Empty(Empty), .Reset(Reset), .Push_Pop(Push_Pop), .Enable(Enable), .Clk(clk), .D(D), .S(S), .TopVal(TopVal), .TopVal_1(TopVal_1), .InRAM(InRAM));
+
+endmodule    
+    

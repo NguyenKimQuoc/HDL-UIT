@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Tan">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tan|Datapath:t0|fadder:fa0|lpm_add_sub:Add4" CBX_FILE_NAME="add_sub_9ri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tan|Datapath:t0|fadder:fa1|lpm_add_sub:Add7" CBX_FILE_NAME="add_sub_9ri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tan|Datapath:t0|fdivider:fd1|Iteration:X1|Multiplication:M1|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tan|Datapath:t0|fdivider:fd1|Multiplication:x0|lpm_mult:Mult0" CBX_FILE_NAME="mult_ect.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tan|Datapath:t0|fadder:fa1|lpm_add_sub:Add4" CBX_FILE_NAME="add_sub_9ri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tan|Datapath:t0|fdivider:fd1|Iteration:X1|Multiplication:M2|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tan|Datapath:t0|fdivider:fd1|Iteration:X2|Multiplication:M1|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tan|Datapath:t0|LoopDivider10:L0|fmultiplication:fd0|lpm_mult:Mult0" CBX_FILE_NAME="mult_dct.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tan|Datapath:t0|fdivider:fd1|Iteration:X2|Multiplication:M2|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tan|Datapath:t0|fdivider:fd1|Iteration:X3|Multiplication:M1|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tan|Datapath:t0|fmultiplication:fd0|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tan|Datapath:t0|fadder:fa0|lpm_add_sub:Add7" CBX_FILE_NAME="add_sub_9ri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tan|Datapath:t0|fdivider:fd1|Iteration:X3|Multiplication:M2|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tan|Datapath:t0|fdivider:fd1|Multiplication:END|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

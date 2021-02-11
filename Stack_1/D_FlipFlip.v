@@ -1,0 +1,44 @@
+module D_FlipFlop(Q, D, Clk, Pre_n, Clr_n);
+	output Q;
+	input D;
+	input Clk, Pre_n, Clr_n;
+	wire S, B, R;
+	SetLatch a(S, Pre_n, Clr_n, B, Clk);
+	ResetLatch b(R, B, Clr_n, D, Clk, S);
+	OutputLatch c(Q, Pre_n, Clr_n, S, R);
+endmodule
+module SetLatch(S, Pre_n, Clr_n, In, Clk);
+	output S;
+	input Pre_n, In, Clk, Clr_n;
+	wire A;
+	nand(A, Pre_n, In, S);
+	nand(S, Clk, A, Clr_n);
+endmodule
+module ResetLatch(R, B, Clr_n, In, Clk, S);
+	output R, B;
+	input In, Clk, Clr_n, S;
+	nand(R, S, Clk, B);
+	nand(B, R, Clr_n, In);
+endmodule
+module OutputLatch(Q, Pre_n, Clr_n, S, R);
+	output Q;
+	input Pre_n, Clr_n, S, R;
+	wire Qn;
+	nand(Q, Pre_n, S, Qn);
+	nand(Qn, Q, R, Clr_n);
+endmodule
+module D_Latch(Q, D, E);
+	output reg Q;
+	input D, E;
+	/*wire [3:0]w;
+	and g0(w[0], D, E);
+	not g1(w[1], D);
+	and g2(w[2], w[1], E);
+	nor g3(Q, w[3], w[2]);
+	nor g4(w[3], Q, w[0]);*/
+	always @ (D or E)
+	if(E)
+	begin
+		Q <= D;
+	end 
+endmodule

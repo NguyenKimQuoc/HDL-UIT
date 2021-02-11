@@ -1,0 +1,20 @@
+module D_FlipFlop(Q, D, Clk);
+	output Q;
+	input D;
+	input Clk;
+	wire [1:0]w; 
+	not g0(w[0], Clk);
+	D_Latch ff0(.Q(w[1]), .D(D), .E(w[0]));
+	D_Latch ff1(.Q(Q), .D(w[1]), .E(Clk));
+endmodule
+
+module D_Latch(Q, D, E);
+	output Q;
+	input D, E;
+	wire [3:0]w;
+	and g0(w[0], D, E);
+	not g1(w[1], D);
+	and g2(w[2], w[1], E);
+	nor g3(Q, w[3], w[2]);
+	nor g4(w[3], Q, w[0]);
+endmodule

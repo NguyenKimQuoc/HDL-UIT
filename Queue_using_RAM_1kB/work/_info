@@ -1,0 +1,520 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\HocKi5\HDL\BaiTap\Stack_using_RAM_1kB
+vclockedD_latch
+Z1 !s100 mL=9[1^HFI5c[L7FcEMDB3
+Z2 I;2<^DD:3f8lQ@d;Y<JBKN3
+Z3 VeCcz8Y2gjF``6Ti518^UX3
+Z4 dD:\HocKi5\HDL\TEST\Queue_using_RAM_1kB
+Z5 w1601992216
+Z6 8D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Counter_up_down.v
+Z7 FD:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Counter_up_down.v
+L0 14
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s108 1604241239.721000
+Z10 !s107 D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Counter_up_down.v|
+Z11 !s90 -reportprogress|300|-work|work|D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Counter_up_down.v|
+Z12 o-work work -O0
+Z13 nclocked@d_latch
+!i10b 1
+!s85 0
+!s101 -O0
+vComparator
+Z14 !s100 C;NH>]:@>eEC?SZaH@i_Y0
+Z15 InzW<Bnf]2[N39eM@klO502
+Z16 VBI3XFIMm_IZOVlh^gCMED3
+R4
+Z17 w1602427583
+Z18 8D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Comparation.v
+Z19 FD:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Comparation.v
+L0 1
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Comparation.v|
+R12
+Z21 n@comparator
+Z22 !s108 1604241242.044000
+Z23 !s107 D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Comparation.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCounter
+Z24 !s100 ZT]d3H>B1I3Z?0NX?`[Ua0
+Z25 IiPiogfoWDTjn<K2LT?_b:0
+Z26 V;=YJfhm`Vb=6JSC>DnjQO2
+R4
+R5
+R6
+R7
+L0 45
+R8
+r1
+31
+R9
+R10
+R11
+R12
+Z27 n@counter
+!i10b 1
+!s85 0
+!s101 -O0
+vD_FlipFlop
+Z28 !s100 MX02V6B4BJzzL8ZFK`PDI3
+Z29 Ie2aUekB`LneA91RMJeVWo0
+Z30 VD4[8W`nJPfQX^3RNJd2=o3
+R4
+Z31 w1601220431
+Z32 8D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/D_FlipFlop.v
+Z33 FD:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/D_FlipFlop.v
+L0 1
+R8
+r1
+31
+Z34 !s108 1604241244.592000
+Z35 !s107 D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/D_FlipFlop.v|
+Z36 !s90 -reportprogress|300|-work|work|D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/D_FlipFlop.v|
+R12
+Z37 n@d_@flip@flop
+!i10b 1
+!s85 0
+!s101 -O0
+vD_Latch
+Z38 !s100 A3JM<J9ao5I2576FGI50f0
+Z39 Io970]=oHkE1[Oe:L8CQNQ2
+Z40 VZ6J<O7UgLZ6iaA]eaNF?72
+R4
+R31
+R32
+R33
+L0 11
+R8
+r1
+31
+R34
+R35
+R36
+R12
+Z41 n@d_@latch
+!i10b 1
+!s85 0
+!s101 -O0
+vd_latch
+Z42 !s100 J1K<j4gP73bLD8f3YR?4R1
+Z43 INO`2]GUcVcUiQ@kQY`?DP0
+Z44 VnbRX0hhG0gX:<]e^46c9R1
+R4
+Z45 w1602427964
+Z46 8D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Ram.v
+Z47 FD:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Ram.v
+L0 33
+R8
+r1
+31
+Z48 !s108 1604241240.844000
+Z49 !s107 D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Ram.v|
+Z50 !s90 -reportprogress|300|-work|work|D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Ram.v|
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vd_latch_8bit
+Z51 !s100 ::=Hlf;3E=6CATnU6P1mN0
+Z52 I<nmb`OnI`IH>KVUH]Vo=?1
+Z53 VzA@<jR2G;NLMUW9iBM:7f3
+R4
+R45
+R46
+R47
+L0 43
+R8
+r1
+31
+R48
+R49
+R50
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vDecoder10to1024
+Z54 !s100 :83jI5_0fWJ6XPjj^9:941
+Z55 I43Cj^GWR`YVfo90JnOdEk1
+Z56 VnJ=BkZDnW@;F]m@GEc@j41
+R4
+Z57 w1601823845
+Z58 8D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Decoder.v
+Z59 FD:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Decoder.v
+L0 26
+R8
+r1
+31
+Z60 !s108 1604241244.960000
+Z61 !s107 D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Decoder.v|
+Z62 !s90 -reportprogress|300|-work|work|D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Decoder.v|
+R12
+Z63 n@decoder10to1024
+!i10b 1
+!s85 0
+!s101 -O0
+vDecoder2to4
+Z64 !s100 WV:bSC<3H7zf5EJ:DGleI3
+Z65 IdEePGh0jkhW_;9H4K[j=P3
+Z66 VDdYWWC=9_RVK4cK@j1UIG3
+R4
+R57
+R58
+R59
+L0 1
+R8
+r1
+31
+R60
+R61
+R62
+R12
+Z67 n@decoder2to4
+!i10b 1
+!s85 0
+!s101 -O0
+vDecoder4to16
+Z68 !s100 5Mad1g`TL6L81[=?IDSW_0
+Z69 I``[bSzR;i@Pfe_1XjU=Ch3
+Z70 V@CTBVh5mWeJZAEaOfj=2k2
+R4
+R57
+R58
+R59
+L0 10
+R8
+r1
+31
+R60
+R61
+R62
+R12
+Z71 n@decoder4to16
+!i10b 1
+!s85 0
+!s101 -O0
+vDecoder8to256
+Z72 !s100 KfC92]cUAIjZE5dFP3;Ad0
+Z73 IP2CAW1>5U1JI3B]B9ddNW3
+Z74 V?QF7JnzKTE<?5d`dX5=<20
+R4
+R57
+R58
+R59
+L0 18
+R8
+r1
+31
+R60
+R61
+R62
+R12
+Z75 n@decoder8to256
+!i10b 1
+!s85 0
+!s101 -O0
+vdecoder_10to1024
+Z76 !s100 EOYeH5h[?IcQzMaaX27623
+Z77 I[T8o7hIB31c=enO17]IhC2
+Z78 Vgo1QBz7X<4a4WCKzlBfgJ2
+R4
+R45
+R46
+R47
+Z79 L0 148
+R8
+r1
+31
+R48
+R49
+R50
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vdecoder_5to32
+Z80 !s100 2X5mi^:>@Q2DC:S9[3j2Y0
+Z81 IKU[f[7K>fF1^K:8i[ehOO3
+Z82 VW`3UzPR`m0;UJUP;4S:0O3
+R4
+R45
+R46
+R47
+L0 67
+R8
+r1
+31
+R48
+R49
+R50
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vHAS
+Z83 !s100 :LozJ1zP[jmkSOzb;G9o=2
+Z84 I?MbTXPYM1S_WK?9?DY`l11
+Z85 VM0HTkXaRdL^QX_j;jgA@g3
+R4
+R5
+R6
+R7
+L0 2
+R8
+r1
+31
+R9
+R10
+R11
+R12
+Z86 n@h@a@s
+!i10b 1
+!s85 0
+!s101 -O0
+vMC
+Z87 !s100 J9BaEV]SRQf6>mT[LnV6U2
+Z88 I6U6T=hDAhEH=m;nn;Rd0^3
+Z89 VBeco4DaX[k_lC^_2k;=412
+R4
+R45
+R46
+R47
+L0 51
+R8
+r1
+31
+R48
+R49
+R50
+R12
+n@m@c
+!i10b 1
+!s85 0
+!s101 -O0
+vMC_8bit
+Z90 !s100 dJaLDzQW:dJ^:2aIdWii_1
+Z91 IF@W>0BFSeN5h9B5]Jg<6N1
+Z92 V``aL>@an;ND2cnFG[@L`V0
+R4
+R45
+R46
+R47
+L0 60
+R8
+r1
+31
+R48
+R49
+R50
+R12
+Z93 n@m@c_8bit
+!i10b 1
+!s85 0
+!s101 -O0
+vMCell
+!i10b 1
+Z94 !s100 fWz9Ue[?eHD4o>OBdUDH>1
+Z95 I7ZWX7X[fMCcbHA8VC5FG@0
+Z96 VUD5Hmhj0HSHU:M>C@CjCD2
+R4
+Z97 w1601824483
+Z98 8D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/MCell.v
+Z99 FD:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/MCell.v
+L0 11
+R8
+r1
+!s85 0
+31
+Z100 !s108 1604241245.548000
+Z101 !s107 D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/MCell.v|
+Z102 !s90 -reportprogress|300|-work|work|D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/MCell.v|
+!s101 -O0
+R12
+Z103 n@m@cell
+vMCell_1BIT
+!i10b 1
+Z104 !s100 P]?BAUg=Pc4FdNeHOY]lO1
+Z105 IaPG4Wi7jXJ^ohFC;mPTa]0
+Z106 VF@_5?@455;]26z<=FX;F91
+R4
+R97
+R98
+R99
+L0 1
+R8
+r1
+!s85 0
+31
+R100
+R101
+R102
+!s101 -O0
+R12
+Z107 n@m@cell_1@b@i@t
+vMux_2to1
+Z108 !s100 XgmNV]aDZ6^gVKYfJJ`S_1
+Z109 IXHZ?cTmbo]VBK:G]R4M=n2
+Z110 V]j5><GF7cCHaIf@^MZ?EN1
+R4
+Z111 w1602427631
+Z112 8D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Mux.v
+Z113 FD:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Mux.v
+L0 2
+R8
+r1
+31
+Z114 !s108 1604241240.465000
+Z115 !s107 D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Mux.v|
+Z116 !s90 -reportprogress|300|-work|work|D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Mux.v|
+R12
+Z117 n@mux_2to1
+!i10b 1
+!s85 0
+!s101 -O0
+vMux_2to1_10bit
+Z118 !s100 fMUQ;^6VYjf`VEk9Q`3d52
+Z119 IZl;JPz51]8R@B50TIj00[2
+Z120 VZYPMiZYOE`Bc[bF?VbZh90
+R4
+R111
+R112
+R113
+L0 12
+R8
+r1
+31
+R114
+R115
+R116
+R12
+Z121 n@mux_2to1_10bit
+!i10b 1
+!s85 0
+!s101 -O0
+vNeg_edge_dff
+Z122 !s100 lIoj:>h;kP`4ZZaaW=`@J1
+Z123 I@fDnaaC`7AiHNP][fdbln2
+Z124 VMZK4RR3D3o473ZUnGmOZo0
+R4
+R5
+R6
+R7
+L0 28
+R8
+r1
+31
+R9
+R10
+R11
+R12
+Z125 n@neg_edge_dff
+!i10b 1
+!s85 0
+!s101 -O0
+vPos_Edge_DFF
+Z126 !s100 Z=R9jPWh?JbRMZ?JNA^Y^3
+Z127 I[<Q]NKj_ULY_;Clza[cS40
+Z128 Vk_n=K:FS8bK@OQW7<b0Q@1
+R4
+R5
+R6
+R7
+L0 38
+R8
+r1
+31
+R9
+R10
+R11
+R12
+Z129 n@pos_@edge_@d@f@f
+!i10b 1
+!s85 0
+!s101 -O0
+vqueue
+Z130 !s100 ELc:i5N4MzR=<YWTOnn8M0
+Z131 Ih;35Q:O^eWd:f<ReaH:W10
+Z132 VJENCH2mzNbdA^J>j7a:2_2
+R4
+Z133 w1602429097
+Z134 8D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/queue.v
+Z135 FD:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/queue.v
+L0 1
+R8
+r1
+31
+Z136 !s90 -reportprogress|300|-work|work|D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/queue.v|
+R12
+Z137 !s108 1604241241.780000
+Z138 !s107 D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/queue.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRam
+Z139 !s100 X]ell8]TNdFemIZ=EEh@?0
+Z140 I8CVnzfXWCoJz@SATeoBj`1
+Z141 VQ:gFDhKILcKXO4oT07fUG2
+Z142 dD:\HocKi5\HDL\BaiTap\Queue_using_RAM_1kB
+Z143 w1602426916
+R46
+R47
+L0 2
+R8
+r1
+31
+R50
+R12
+n@ram
+Z144 !s108 1602427634.920000
+R49
+!i10b 1
+!s85 0
+!s101 -O0
+vRAM
+Z145 !s100 o;LOAzHT@L2PKZG]@hj3<0
+Z146 I>]F4Sn_aK7=a`OcT]b^Ek2
+Z147 V5zeaNTQzam^gBJbERKDhQ0
+R4
+R45
+R46
+R47
+Z148 L0 158
+R8
+r1
+31
+R48
+R49
+R50
+R12
+Z149 n@r@a@m
+!i10b 1
+!s85 0
+!s101 -O0
+vTestBench
+Z150 Ikg6RWeEn2DWfFKK64@FQg1
+Z151 VH;VS]59WmQ>4a<zRibM9Z0
+R4
+Z152 w1604241243
+Z153 8D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/TestBench.v
+Z154 FD:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/TestBench.v
+L0 3
+R8
+r1
+31
+Z155 !s90 -reportprogress|300|-work|work|D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/TestBench.v|
+R12
+Z156 n@test@bench
+Z157 !s100 QXLSI?M<5GH=TnK?U>bn`0
+Z158 !s108 1604241244.242000
+Z159 !s107 D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/TestBench.v|
+!i10b 1
+!s85 0
+!s101 -O0

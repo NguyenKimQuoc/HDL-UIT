@@ -1,0 +1,111 @@
+module Controller(
+	input clk,
+	input angleGreaterA,
+	input doneLoop,
+	input done,
+	output reg start,
+	output reg startLoop,
+	output reg Y_signal,
+	output reg X_signal,
+	output reg angle_signal,
+	output reg t1_signal,
+	output reg t2_signal,
+	output reg verify_angleGreaterA
+);
+	reg [2:0] state;
+	always @(posedge clk) begin
+		if(!done) begin
+			case(state)
+				3'b000: begin
+					start <= 1'b1;
+					startLoop <= 1'b0;
+					Y_signal <= 1'b0;
+					X_signal <= 1'b0;
+					angle_signal <= 1'b0;
+					t1_signal <= 1'b0;
+					t2_signal <= 1'b0;
+					verify_angleGreaterA <= 1'b0;
+					state <= 3'b001;
+				end
+				3'b001: begin
+					start <= 1'b0;
+					startLoop <= 1'b0;
+					Y_signal <= 1'b0;
+					X_signal <= 1'b0;
+					angle_signal <= 1'b1;
+					t1_signal <= 1'b0;
+					t2_signal <= 1'b0;
+					verify_angleGreaterA <= 1'b0;
+					state <= 3'b010;
+				end
+				3'b010: begin
+					start <= 1'b0;
+					startLoop <= 1'b1;
+					Y_signal <= 1'b0;
+					X_signal <= 1'b0;
+					angle_signal <= 1'b0;
+					t1_signal <= 1'b0;
+					t2_signal <= 1'b0;
+					verify_angleGreaterA <= 1'b0;
+					state <= 3'b011;
+				end
+				3'b011: begin
+					startLoop <= 1'b0;
+					if(doneLoop) begin
+						start <= 1'b0;
+						Y_signal <= 1'b0;
+						X_signal <= 1'b0;
+						angle_signal <= 1'b0;
+						t1_signal <= 1'b1;
+						t2_signal <= 1'b0;
+						verify_angleGreaterA <= 1'b0;
+						state <= 3'b100;
+					end
+				end
+				3'b100: begin
+					start <= 1'b0;
+					startLoop <= 1'b0;
+					Y_signal <= 1'b0;
+					X_signal <= 1'b0;
+					angle_signal <= 1'b0;
+					t1_signal <= 1'b0;
+					t2_signal <= 1'b1;
+					verify_angleGreaterA <= 1'b0;
+					state <= 3'b101;
+				end
+				3'b101: begin
+					start <= 1'b0;
+					startLoop <= 1'b0;
+					Y_signal <= 1'b1;
+					X_signal <= 1'b0;
+					angle_signal <= 1'b0;
+					t1_signal <= 1'b0;
+					t2_signal <= 1'b0;
+					verify_angleGreaterA <= 1'b0;
+					state <= 3'b110;
+				end
+				3'b110: begin
+					start <= 1'b0;
+					startLoop <= 1'b0;
+					Y_signal <= 1'b0;
+					X_signal <= 1'b1;
+					angle_signal <= 1'b0;
+					t1_signal <= 1'b0;
+					t2_signal <= 1'b0;
+					verify_angleGreaterA <= 1'b0;
+					if(!angleGreaterA)
+						state <= 3'b111;
+					else
+						state <= 3'b001;
+				end
+				3'b111: begin
+					X_signal <= 1'b0;
+					verify_angleGreaterA <= 1'b1;
+					state <= 3'b001;
+				end
+			endcase
+		end
+		else begin
+		end
+	end
+endmodule

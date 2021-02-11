@@ -1,0 +1,13 @@
+Sun Dec 27 8:36:23 PM SE Asia Standard Time 2020
+Trace back: bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"
+    while executing
+"winfo class $widget"
+    (procedure "Wave::1Up" line 70)
+    invoked from within
+"Wave::1Up $widget $x $y"
+    (procedure "Wave::SelectUp" line 4)
+    invoked from within
+"Wave::SelectUp	 .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data 86 77 363 238 "
+    (command bound to event)
+  <2: ::tkerror {bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}
+  <1: ::bgerror {bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}

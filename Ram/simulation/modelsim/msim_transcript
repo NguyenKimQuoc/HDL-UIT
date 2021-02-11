@@ -1,0 +1,46 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Ram_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/HDL/Ram {D:/HDL/Ram/D_FlipFlop.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module D_FlipFlop
+# -- Compiling module D_Latch
+# 
+# Top level modules:
+# 	D_FlipFlop
+# vlog -vlog01compat -work work +incdir+D:/HDL/Ram {D:/HDL/Ram/MCell.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MCell_1BIT
+# -- Compiling module MCell
+# 
+# Top level modules:
+# 	MCell
+# vlog -vlog01compat -work work +incdir+D:/HDL/Ram {D:/HDL/Ram/Decoder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Decoder2to4
+# -- Compiling module Decoder4to16
+# -- Compiling module Decoder8to256
+# -- Compiling module Decoder10to1024
+# 
+# Top level modules:
+# 	Decoder10to1024
+# vlog -vlog01compat -work work +incdir+D:/HDL/Ram {D:/HDL/Ram/Ram.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Ram
+# 
+# Top level modules:
+# 	Ram
+# 
+# Break key hit 
+file mkdir D:/HDL/Ram/PreSyn
+# reading C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Loading project PreSyn

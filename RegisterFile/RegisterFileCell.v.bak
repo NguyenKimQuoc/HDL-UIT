@@ -1,0 +1,12 @@
+module RegisterFileCell(OutA, OutB, Clk, ReadA, ReadB, WS, In);
+	output OutA, OutB;
+	input Clk, ReadA, ReadB, WS;
+	wire []w;
+	wire Q, D;
+	and g0(w[0], WS, In);
+	and g1(w[1], Q, ~WS);
+	or g2(D, w[0], w[1]);
+	D_FlipFlop dff(.Q(Q), .D(D), .Clk(Clk), .Pre_n(1), .Clr_n(1));
+	bufif1 buf0(OutA, Q, ReadA);
+	bufif1 buf1(OutB, Q, ReadB);
+endmodule

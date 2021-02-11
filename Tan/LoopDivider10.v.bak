@@ -1,0 +1,44 @@
+module LoopDivider10(
+	input clk,
+	input [31:0] a,
+	input [2:0] i,
+	input start,
+	output reg done,
+	output [31:0] value
+);
+	reg [2:0] index = 3'b0;
+	wire [31:0] a_wire;
+	reg [31:0] a_value;
+	reg [2:0] i_value;
+	reg start_signal = 1'b0;
+	fdivider fd0(a_value, 32'h3dcccccd, , a_wire);
+	assign value = a_value;
+	always @(posedge clk) begin
+		if(start) begin
+			a_value <= a;
+			i_value <= i;
+			start_signal <= 1'b1;
+			done <= 0;
+		end
+		else begin
+			if(start_signal) begin
+				if(i_value > index) begin
+					a_value <= a_wire;
+					i_value = i_value - 1'b1;
+					if(i_value == index) begin
+						done <= 1;
+						start_signal <= 1'b0;
+					end
+					else
+						done <= 0;
+				end
+				else begin
+					done <= 1;
+					start_signal <= 1'b0;
+				end
+			end
+			else
+				done <= 0;
+		end
+	end
+endmodule

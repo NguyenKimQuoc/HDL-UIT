@@ -1,0 +1,15 @@
+D:/HDL/Counter/simulation/modelsim/CounterParallel.vo {1 {vlog -work work D:/HDL/Counter/simulation/modelsim/CounterParallel.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Counter_8BIT
+
+Top level modules:
+	Counter_8BIT
+
+} {} {}} D:/HDL/Counter/tb_Counter_8BIT.v {1 {vlog -work work D:/HDL/Counter/tb_Counter_8BIT.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_Counter_8BIT
+
+Top level modules:
+	tb_Counter_8BIT
+
+} {} {}}

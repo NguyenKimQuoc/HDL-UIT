@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\HDL\Shift\simulation\modelsim
+vD_FlipFlop
+Z1 !s100 jJ6l0TZP;:n4knEc7_X=j1
+Z2 I7iiTePS^FzH6No;j<CkdG3
+Z3 VD4[8W`nJPfQX^3RNJd2=o3
+Z4 dD:\HDL\Shift
+Z5 w1601220431
+Z6 8D:/HDL/Shift/D_FlipFlop.v
+Z7 FD:/HDL/Shift/D_FlipFlop.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s108 1601255996.298000
+Z10 !s107 D:/HDL/Shift/D_FlipFlop.v|
+Z11 !s90 -reportprogress|300|-work|work|D:/HDL/Shift/D_FlipFlop.v|
+Z12 o-work work -O0
+Z13 n@d_@flip@flop
+!i10b 1
+!s85 0
+!s101 -O0
+vD_Latch
+Z14 !s100 BPlKhIdGV>gHiec=0:Al41
+Z15 IaIf0o_MRDkFg_:`>SDh;S1
+Z16 VZ6J<O7UgLZ6iaA]eaNF?72
+R4
+R5
+R6
+R7
+L0 11
+R8
+r1
+31
+R9
+R10
+R11
+R12
+Z17 n@d_@latch
+!i10b 1
+!s85 0
+!s101 -O0
+vMux21_1BIT
+Z18 !s100 ;=YV6JCL3Q==kOJghfUBM2
+Z19 I`z:ejMHTeaLWKWkHBE]zK2
+Z20 VA8VM4MzTf5]8eh;>PlH_b0
+R4
+Z21 w1600794959
+Z22 8D:/HDL/Shift/Mux21_1BIT.v
+Z23 FD:/HDL/Shift/Mux21_1BIT.v
+L0 1
+R8
+r1
+31
+Z24 !s90 -reportprogress|300|-work|work|D:/HDL/Shift/Mux21_1BIT.v|
+R12
+Z25 n@mux21_1@b@i@t
+Z26 !s108 1601255996.651000
+Z27 !s107 D:/HDL/Shift/Mux21_1BIT.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMux41_1BIT
+Z28 !s100 @P82I8UUJ>^48`<dbK<m]1
+Z29 IfXceNjY1l?fC16a?@J=B`2
+Z30 VS4S5AW308gcfmliEZc=Pf2
+R4
+Z31 w1601213725
+Z32 8D:/HDL/Shift/Mux41_1BIT.v
+Z33 FD:/HDL/Shift/Mux41_1BIT.v
+L0 1
+R8
+r1
+31
+Z34 !s90 -reportprogress|300|-work|work|D:/HDL/Shift/Mux41_1BIT.v|
+R12
+Z35 n@mux41_1@b@i@t
+Z36 !s108 1601255996.906000
+Z37 !s107 D:/HDL/Shift/Mux41_1BIT.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vShiftParallel_1BIT
+Z38 !s100 ^=CD6h5nRJ1:oaM@5;>FR3
+Z39 IT8e1i1M`4WgM31Bd2TbA=0
+Z40 VUG[6U>L5`>Laa3D=;B`bg1
+R4
+Z41 w1601213643
+Z42 8D:/HDL/Shift/ShiftParallel_1BIT.v
+Z43 FD:/HDL/Shift/ShiftParallel_1BIT.v
+L0 1
+R8
+r1
+31
+Z44 !s90 -reportprogress|300|-work|work|D:/HDL/Shift/ShiftParallel_1BIT.v|
+R12
+Z45 n@shift@parallel_1@b@i@t
+Z46 !s108 1601255997.165000
+Z47 !s107 D:/HDL/Shift/ShiftParallel_1BIT.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vShiftParallel_NBIT
+Z48 !s100 BRg5Y=bEI4AjnT1R7Hf6N0
+Z49 I]F`e9oJz^;CdQTOL0fNk50
+Z50 V@]Z2DeoBT8hn[U7DkD3;;2
+R4
+Z51 w1601220433
+Z52 8D:/HDL/Shift/ShiftParallel_NBIT.v
+Z53 FD:/HDL/Shift/ShiftParallel_NBIT.v
+L0 1
+R8
+r1
+31
+Z54 !s90 -reportprogress|300|-work|work|D:/HDL/Shift/ShiftParallel_NBIT.v|
+R12
+Z55 n@shift@parallel_@n@b@i@t
+Z56 !s108 1601255997.386000
+Z57 !s107 D:/HDL/Shift/ShiftParallel_NBIT.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSRwPLtest
+Z58 Ij^j9;QR9P1:1BJaY6HA6U1
+Z59 VOYPC3iVH;eo8l@:JOo1SS2
+R4
+Z60 w1601255988
+Z61 8D:\HDL\Shift\testbench.v
+Z62 FD:\HDL\Shift\testbench.v
+L0 2
+R8
+r1
+31
+Z63 !s90 -reportprogress|300|-work|work|D:\HDL\Shift\testbench.v|
+R12
+Z64 n@s@rw@p@ltest
+!i10b 1
+Z65 !s100 h7Y:MFo<N@ihVNkn:mzjE0
+!s85 0
+Z66 !s108 1601255997.557000
+Z67 !s107 D:\HDL\Shift\testbench.v|
+!s101 -O0
+vtb_DFF
+!i10b 1
+Z68 !s100 GXEmVoI89M5mG]9MBh0<W0
+Z69 IBfUi6`M_S0K?LP94N[lQ21
+Z70 VKOIPLbj?_P<RaG3YGB7M<1
+R4
+Z71 w1601221777
+Z72 8D:/HDL/Shift/tb_DFF.v
+Z73 FD:/HDL/Shift/tb_DFF.v
+L0 6
+R8
+r1
+!s85 0
+31
+!s108 1601255997.991000
+!s107 D:/HDL/Shift/tb_DFF.v|
+Z74 !s90 -reportprogress|300|-work|work|D:/HDL/Shift/tb_DFF.v|
+!s101 -O0
+R12
+Z75 ntb_@d@f@f

@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vqueue
+!i10b 1
+Z1 !s100 C[0DiNEc`ca^I^=`7BfTT3
+Z2 I0e2JBSSWKj@o0_d9KoU:X0
+Z3 Vbj`>P0iX`n:Kd7XLd:b^=1
+Z4 dD:\HDL\Queue_using_RAM1kB_PostSyn
+Z5 w1604249466
+Z6 8D:/HDL/Queue_using_RAM1kB_PostSyn/simulation/modelsim/queue.vo
+Z7 FD:/HDL/Queue_using_RAM1kB_PostSyn/simulation/modelsim/queue.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1604281685.371000
+!s107 D:/HDL/Queue_using_RAM1kB_PostSyn/simulation/modelsim/queue.vo|
+Z9 !s90 -reportprogress|300|-work|work|D:/HDL/Queue_using_RAM1kB_PostSyn/simulation/modelsim/queue.vo|
+!s101 -O0
+Z10 o-work work -O0
+vTestBench
+Z11 !s100 <zJ9LAKM83n9SX[XiB9ke0
+Z12 IoQ?BcB3VC198Afk<M:K>_1
+Z13 V2>oV^`R33`3DQm2H0IOA?0
+R4
+Z14 w1604281317
+Z15 8D:/HDL/Queue_using_RAM1kB_PostSyn/TestBench.v
+Z16 FD:/HDL/Queue_using_RAM1kB_PostSyn/TestBench.v
+L0 3
+R8
+r1
+31
+Z17 !s90 -reportprogress|300|-work|work|D:/HDL/Queue_using_RAM1kB_PostSyn/TestBench.v|
+R10
+Z18 n@test@bench
+!i10b 1
+!s85 0
+Z19 !s108 1604281685.140000
+Z20 !s107 D:/HDL/Queue_using_RAM1kB_PostSyn/TestBench.v|
+!s101 -O0

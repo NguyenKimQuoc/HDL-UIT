@@ -1,0 +1,78 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Stack_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/HDL/Stack {D:/HDL/Stack/Mux21_1BIT.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Mux21_1BIT
+# 
+# Top level modules:
+# 	Mux21_1BIT
+# vlog -vlog01compat -work work +incdir+D:/HDL/Stack {D:/HDL/Stack/MCell.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MCell_1BIT
+# -- Compiling module MCell
+# 
+# Top level modules:
+# 	MCell
+# vlog -vlog01compat -work work +incdir+D:/HDL/Stack {D:/HDL/Stack/HAS.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module HAS
+# 
+# Top level modules:
+# 	HAS
+# vlog -vlog01compat -work work +incdir+D:/HDL/Stack {D:/HDL/Stack/D_FlipFlop.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module D_FlipFlop
+# -- Compiling module SetLatch
+# -- Compiling module ResetLatch
+# -- Compiling module OutputLatch
+# -- Compiling module D_Latch
+# 
+# Top level modules:
+# 	D_FlipFlop
+# 	D_Latch
+# vlog -vlog01compat -work work +incdir+D:/HDL/Stack {D:/HDL/Stack/Decoder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Decoder2to4
+# -- Compiling module Decoder4to16
+# -- Compiling module Decoder8to256
+# -- Compiling module Decoder10to1024
+# 
+# Top level modules:
+# 	Decoder10to1024
+# vlog -vlog01compat -work work +incdir+D:/HDL/Stack {D:/HDL/Stack/Counter_1BIT.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Counter_1BIT
+# 
+# Top level modules:
+# 	Counter_1BIT
+# vlog -vlog01compat -work work +incdir+D:/HDL/Stack {D:/HDL/Stack/Counter_NBIT.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Counter_NBIT
+# 
+# Top level modules:
+# 	Counter_NBIT
+# vlog -vlog01compat -work work +incdir+D:/HDL/Stack {D:/HDL/Stack/Ram.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Ram
+# 
+# Top level modules:
+# 	Ram
+# vlog -vlog01compat -work work +incdir+D:/HDL/Stack {D:/HDL/Stack/Stack.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Stack
+# 
+# Top level modules:
+# 	Stack
+# 
+# reading C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Loading project PreSyn

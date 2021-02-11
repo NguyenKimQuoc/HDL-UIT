@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\HDL\Shift\simulation\modelsim
+vD_FlipFlop
+I];QF^6m8bKVh:N7Z]7kOl2
+VD4[8W`nJPfQX^3RNJd2=o3
+Z1 dD:\HDL\Shift\simulation\modelsim
+Z2 w1600710559
+Z3 8D:/HDL/Shift/D_FlipFlop.v
+Z4 FD:/HDL/Shift/D_FlipFlop.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+31
+Z6 !s108 1601215061.971000
+Z7 !s107 D:/HDL/Shift/D_FlipFlop.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Shift|D:/HDL/Shift/D_FlipFlop.v|
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+D:/HDL/Shift -O0
+n@d_@flip@flop
+!i10b 1
+!s100 jJ6l0TZP;:n4knEc7_X=j1
+!s85 0
+!s101 -O0
+vD_Latch
+Ibb?XZVYi^@XZ1dn=7WEQ?1
+VZ6J<O7UgLZ6iaA]eaNF?72
+R1
+R2
+R3
+R4
+L0 11
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@d_@latch
+!i10b 1
+!s100 fJYETn]VHJglJ8b?ZZYOX2
+!s85 0
+!s101 -O0
+vMux21_1BIT
+I;l[1ilKdGj1[RSA:ffe?M1
+VA8VM4MzTf5]8eh;>PlH_b0
+R1
+w1600794959
+8D:/HDL/Shift/Mux21_1BIT.v
+FD:/HDL/Shift/Mux21_1BIT.v
+L0 1
+R5
+r1
+31
+R9
+n@mux21_1@b@i@t
+R10
+!i10b 1
+!s100 ;=YV6JCL3Q==kOJghfUBM2
+!s85 0
+!s108 1601215061.713000
+!s107 D:/HDL/Shift/Mux21_1BIT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Shift|D:/HDL/Shift/Mux21_1BIT.v|
+!s101 -O0
+vMux41_1BIT
+I@BSiXG5O[VRl[CUlLB_nR0
+VS4S5AW308gcfmliEZc=Pf2
+R1
+w1601213725
+8D:/HDL/Shift/Mux41_1BIT.v
+FD:/HDL/Shift/Mux41_1BIT.v
+L0 1
+R5
+r1
+31
+R9
+R10
+n@mux41_1@b@i@t
+!i10b 1
+!s100 @P82I8UUJ>^48`<dbK<m]1
+!s85 0
+!s108 1601215062.300000
+!s107 D:/HDL/Shift/Mux41_1BIT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Shift|D:/HDL/Shift/Mux41_1BIT.v|
+!s101 -O0
+vShiftParallel_1BIT
+!i10b 1
+!s100 ^=CD6h5nRJ1:oaM@5;>FR3
+II5Z8<hHm^[mUkz`COMNmb2
+VUG[6U>L5`>Laa3D=;B`bg1
+R1
+w1601213643
+8D:/HDL/Shift/ShiftParallel_1BIT.v
+FD:/HDL/Shift/ShiftParallel_1BIT.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1601215062.505000
+!s107 D:/HDL/Shift/ShiftParallel_1BIT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Shift|D:/HDL/Shift/ShiftParallel_1BIT.v|
+!s101 -O0
+R9
+R10
+n@shift@parallel_1@b@i@t

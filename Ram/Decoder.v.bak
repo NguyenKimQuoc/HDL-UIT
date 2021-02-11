@@ -1,0 +1,9 @@
+module Decoder2to4(out, in, En);
+	output [3:0] out;
+	input [1:0] in;
+	input En;
+	and(out[0], ~in[1], ~in[0], En);
+	and(out[0], ~in[1], in[0], En);
+	and(out[0], in[1], ~in[0], En);
+	and(out[0], in[1], in[0], En);
+endmodule

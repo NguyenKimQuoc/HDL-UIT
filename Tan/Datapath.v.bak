@@ -1,0 +1,83 @@
+module Datapath(
+	input clk,
+	input start,
+	input startLoop,
+	input Y_signal,
+	input X_signal,
+	input angle_signal,
+	input t1_signal,
+	input t2_signal,
+	input verify_angleGreaterA,
+	input [31:0] degree_angle,
+	output angleGreaterA, // check angle > ai
+	output doneLoop,
+	output reg done,
+	output [31:0] result,
+	output wire [31:0] a_wire,
+	output reg [31:0] radian_angle
+);
+	wire [31:0] a [7:0];
+	assign a[0] = 32'h3f490fdb; //arctan(10^-0)
+	assign a[1] = 32'h3dcc1f14;
+	assign a[2] = 32'h3c23d5a4;
+	assign a[3] = 32'h3a83126c;
+	assign a[4] = 32'h38d1b717;
+	assign a[5] = 32'h3727c5ac;
+	assign a[6] = 32'h358637bd;
+	assign a[7] = 32'h33d6bf95;
+	
+	/*output reg [31:0] X = 32'b1;
+	output reg [31:0] Y = 32'b0;
+	output reg [31:0] i = 32'b0;
+	output reg [31:0] t2;*/
+	
+	wire [31:0] Y_wire, angle_wire, t1_wire, tp_wire, t2_wire, radian_angle_wire;
+	reg [31:0] X;
+	reg [31:0] Y;
+	reg [2:0] i;
+	reg [31:0] t1;
+	reg [31:0] t2;
+	wire [31:0] K_wire;
+	DegtoRad dtr(.Deg(degree_angle),.Rad(angle_wire)); // Deg -> Rad
+
+	mux81 m2(a[0], a[1], a[2], a[3], a[4], a[5], a[6], a[7], i, a_wire);
+	
+	fadder fa0(radian_angle, a_wire, 1'b1, , radian_angle_wire); // angle = angle - ai
+	LoopDivider10 l0(clk, 32'h3f800000, i, startLoop, doneLoop, K_wire); // 10^-i
+	fdivider fd0(Y, K_wire, , t1_wire); // K.Y
+	fadder fa1(X, t1, 1'b1, , tp_wire); // tp = X - K.Y
+	fdivider fd2(X, K_wire, , t2_wire); // K.X
+	fadder fa3(Y, t2, 1'b0, , Y_wire); // Y = Y + K.X
+	Comparator c0(a_wire, radian_angle, angleGreaterA); // angle > ai ?
+	fdivider fd1(Y, X, , result);
+	always @(posedge clk) begin
+		if(start) begin	
+			radian_angle = angle_wire;
+			X <= 32'h3f800000;
+			Y <= 32'h00000000;
+			i <= 3'b0;
+			done <= 1'b0;
+		end
+		if(angle_signal)
+			radian_angle <= radian_angle_wire;
+		if(t1_signal)
+			t1 <= t1_wire;
+		if(t2_signal)
+			t2 <= t2_wire;
+		if(Y_signal) begin
+			Y <= Y_wire;
+		end
+		if(X_signal) begin
+			X <= tp_wire;
+		end
+		if(verify_angleGreaterA) begin
+			if(i == 3'b111) begin
+				done <= 1'b1;	
+			end
+			else begin
+				i <= i + 1'b1;
+				done <= 1'b0;
+			end
+		end
+	end
+endmodule

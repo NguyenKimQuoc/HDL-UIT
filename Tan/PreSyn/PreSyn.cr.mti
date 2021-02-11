@@ -1,0 +1,84 @@
+D:/HDL/Tan/DegtoRad.v {1 {vlog -work work D:/HDL/Tan/DegtoRad.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module DegtoRad
+
+Top level modules:
+	DegtoRad
+
+} {} {}} D:/HDL/Tan/Mux.v {1 {vlog -work work D:/HDL/Tan/Mux.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux21
+-- Compiling module mux81
+
+Top level modules:
+	mux21
+	mux81
+
+} {} {}} D:/HDL/Tan/LoopDivider10.v {1 {vlog -work work D:/HDL/Tan/LoopDivider10.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module LoopDivider10
+
+Top level modules:
+	LoopDivider10
+
+} {} {}} D:/HDL/Tan/fadder.v {1 {vlog -work work D:/HDL/Tan/fadder.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fadder
+
+Top level modules:
+	fadder
+
+} {} {}} D:/HDL/Tan/Datapath.v {1 {vlog -work work D:/HDL/Tan/Datapath.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}} D:/HDL/Tan/Tan.v {1 {vlog -work work D:/HDL/Tan/Tan.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Tan
+
+Top level modules:
+	Tan
+
+} {} {}} D:/HDL/Tan/testbench.v {1 {vlog -work work D:/HDL/Tan/testbench.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TestTan
+
+Top level modules:
+	TestTan
+
+} {} {}} D:/HDL/Tan/Controller.v {1 {vlog -work work D:/HDL/Tan/Controller.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} D:/HDL/Tan/Comparator.v {1 {vlog -work work D:/HDL/Tan/Comparator.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Comparator
+
+Top level modules:
+	Comparator
+
+} {} {}} D:/HDL/Tan/PreSyn/tb_Controller.v {1 {vlog -work work D:/HDL/Tan/PreSyn/tb_Controller.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TestController
+
+Top level modules:
+	TestController
+
+} {} {}} D:/HDL/Tan/fdivider.v {1 {vlog -work work D:/HDL/Tan/fdivider.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fdivider
+-- Compiling module Addition_Subtraction
+-- Compiling module Iteration
+-- Compiling module Multiplication
+-- Compiling module priority_encoder
+
+Top level modules:
+	fdivider
+
+} {} {}}

@@ -1,0 +1,15 @@
+D:/HocKi5/HDL/TEST/Queue_using_RAM1kB_PostSyn/simulation/modelsim/TestBench.v {1 {vlog -work work {D:\HocKi5\HDL\TEST\Queue_using_RAM1kB_PostSyn\simulation\modelsim\TestBench.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TestBench
+
+Top level modules:
+	TestBench
+
+} {} {}} D:/HocKi5/HDL/TEST/Queue_using_RAM1kB_PostSyn/simulation/modelsim/queue.vo {1 {vlog -work work D:/HocKi5/HDL/TEST/Queue_using_RAM1kB_PostSyn/simulation/modelsim/queue.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module queue
+
+Top level modules:
+	queue
+
+} {} {}}

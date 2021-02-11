@@ -1,0 +1,21 @@
+module RAM(IO, Clk, RowSel, RWS, CS);
+	inout [7:0]IO;
+	input [9:0]RowSelect;
+	input RWS, CS, Clk;
+	
+	wire RWSn, WE, CSa;
+	wire [7:0] IOa,O_MC;
+	wire [1023:0] O_En;
+	
+	not n0(RWSn, RWS);
+	and a0(WE, RWS, CS,clk);
+	and a1(CSa, RWSn,CS);
+	
+	Decoder10to1024 a(.O(O_En),.I(RowSelect),.En(1));
+	Arr_MC MC[1023:0](.Out(O_MC), .in(IO),.RowSelectn(O_En),.WriteEnablen(WE));
+	
+	buf bufn[7:0](IOa,IO);
+	bufif1 bufifn[7:0](IO,O_MC, CSa);
+	
+	
+endmodule 

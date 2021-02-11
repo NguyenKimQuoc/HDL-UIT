@@ -1,0 +1,83 @@
+D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/queue.v {1 {vlog -work work D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/queue.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module queue
+
+Top level modules:
+	queue
+
+} {} {}} D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Comparation.v {1 {vlog -work work D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Comparation.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Comparator
+
+Top level modules:
+	Comparator
+
+} {} {}} D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/MCell.v {1 {vlog -work work D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/MCell.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MCell_1BIT
+-- Compiling module MCell
+
+Top level modules:
+	MCell
+
+} {} {}} D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Mux.v {1 {vlog -work work D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Mux.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Mux_2to1
+-- Compiling module Mux_2to1_10bit
+
+Top level modules:
+	Mux_2to1_10bit
+
+} {} {}} D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Decoder.v {1 {vlog -work work D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Decoder.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Decoder2to4
+-- Compiling module Decoder4to16
+-- Compiling module Decoder8to256
+-- Compiling module Decoder10to1024
+
+Top level modules:
+	Decoder10to1024
+
+} {} {}} D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/D_FlipFlop.v {1 {vlog -work work D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/D_FlipFlop.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module D_FlipFlop
+-- Compiling module D_Latch
+
+Top level modules:
+	D_FlipFlop
+
+} {} {}} D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Counter_up_down.v {1 {vlog -work work D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Counter_up_down.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module HAS
+-- Compiling module clockedD_latch
+-- Compiling module Neg_edge_dff
+-- Compiling module Pos_Edge_DFF
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}} D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/TestBench.v {2 {vlog -work work D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/TestBench.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TestBench
+** Warning: D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/TestBench.v(33): (vlog-2252) Missing incrementer in "FOR" statement.
+
+
+Top level modules:
+	TestBench
+
+} {} {}} D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Ram.v {1 {vlog -work work D:/HocKi5/HDL/BaiTap/Queue_using_RAM_1kB/Ram.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module d_latch
+-- Compiling module d_latch_8bit
+-- Compiling module MC
+-- Compiling module MC_8bit
+-- Compiling module decoder_5to32
+-- Compiling module decoder_10to1024
+-- Compiling module RAM
+
+Top level modules:
+	d_latch_8bit
+	RAM
+
+} {} {}}

@@ -1,0 +1,44 @@
+D:/HDL/Counter/Counter_8BIT.v {1 {vlog -work work {D:\HDL\Counter\Counter_8BIT.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Counter_8BIT
+
+Top level modules:
+	Counter_8BIT
+
+} {} {}} D:/HDL/Counter/D_FlipFlop.v {1 {vlog -work work D:/HDL/Counter/D_FlipFlop.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module D_FlipFlop
+-- Compiling module D_Latch
+
+Top level modules:
+	D_FlipFlop
+
+} {} {}} D:/HDL/Counter/Counter_1BIT.v {1 {vlog -work work D:/HDL/Counter/Counter_1BIT.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Counter_1BIT
+
+Top level modules:
+	Counter_1BIT
+
+} {} {}} D:/HDL/Counter/PreSyn/testbench.v {1 {vlog -work work {D:\HDL\Counter\PreSyn\testbench.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_Counter_8BIT
+
+Top level modules:
+	tb_Counter_8BIT
+
+} {} {}} D:/HDL/Counter/Mux21_1BIT.v {1 {vlog -work work D:/HDL/Counter/Mux21_1BIT.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Mux21_1BIT
+
+Top level modules:
+	Mux21_1BIT
+
+} {} {}} D:/HDL/Counter/HAS.v {1 {vlog -work work D:/HDL/Counter/HAS.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module HAS
+
+Top level modules:
+	HAS
+
+} {} {}}

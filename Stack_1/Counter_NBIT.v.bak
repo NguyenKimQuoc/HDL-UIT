@@ -1,0 +1,26 @@
+module Counter_8BIT(Q, Cout, Clk, D, E, Load, In, Set, Reset);
+	output [7:0]Q;
+	output Cout;
+	input [7:0]In;
+	input Clk, D, Load, E, Set, Reset;
+	wire [6:0]w;
+	/*Counter_1BIT c0(.Q(Q[0]), .Cout(w1), .D(D), .Load(Load), .Cin(E), .In(In[0]), .Clk(Clk));
+	Counter_1BIT c1(.Q(Q[1]), .Cout(w2), .D(D), .Load(Load), .Cin(w1), .In(In[1]), .Clk(Clk));
+	Counter_1BIT c2(.Q(Q[2]), .Cout(w3), .D(D), .Load(Load), .Cin(w2), .In(In[2]), .Clk(Clk));
+	Counter_1BIT c3(.Q(Q[3]), .Cout(w4), .D(D), .Load(Load), .Cin(w3), .In(In[3]), .Clk(Clk));
+	Counter_1BIT c4(.Q(Q[4]), .Cout(w5), .D(D), .Load(Load), .Cin(w4), .In(In[4]), .Clk(Clk));
+	Counter_1BIT c5(.Q(Q[5]), .Cout(w6), .D(D), .Load(Load), .Cin(w5), .In(In[5]), .Clk(Clk));
+	Counter_1BIT c6(.Q(Q[6]), .Cout(w7), .D(D), .Load(Load), .Cin(w6), .In(In[6]), .Clk(Clk));
+	Counter_1BIT c7(.Q(Q[7]), .Cout(w8), .D(D), .Load(Load), .Cin(w7), .In(In[7]), .Clk(Clk));*/
+	Counter_1BIT counter[7:0](
+		.Q(Q[7:0]), 
+		.Cout({Cout, w[6:0]}), 
+		.D(D), 
+		.Load(Load), 
+		.Cin({w[6:0], E}), 
+		.In(In[7:0]), 
+		.Clk(Clk),
+		.Set(Set),
+		.Reset(Reset)
+	);
+endmodule

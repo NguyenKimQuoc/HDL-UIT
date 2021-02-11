@@ -1,0 +1,145 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vCounter_1BIT
+Z1 !s100 am;_QUbCYN8gFiRPdDB813
+Z2 ITRkn;C@?aN6MU0Cj6L7JR2
+Z3 VLNoF^7^HTk7OF?3MGGUSY0
+Z4 dD:\HDL\Counter\PreSyn
+Z5 w1600623065
+Z6 8D:/HDL/Counter/Counter_1BIT.v
+Z7 FD:/HDL/Counter/Counter_1BIT.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/HDL/Counter/Counter_1BIT.v|
+Z10 o-work work -O0
+Z11 n@counter_1@b@i@t
+Z12 !s108 1604222689.414000
+Z13 !s107 D:/HDL/Counter/Counter_1BIT.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCounter_8BIT
+Z14 IASYkHoji4feS@1j^3Td<W2
+Z15 VMmz@EOKF=B3kZB[4?PkY`2
+R4
+Z16 w1600623801
+Z17 8D:\HDL\Counter\Counter_8BIT.v
+Z18 FD:\HDL\Counter\Counter_8BIT.v
+L0 1
+R8
+r1
+31
+R10
+Z19 n@counter_8@b@i@t
+Z20 !s100 _2eOEJEgA]nMe5:iGX[`;1
+Z21 !s108 1604222689.583000
+Z22 !s107 D:\HDL\Counter\Counter_8BIT.v|
+Z23 !s90 -reportprogress|300|-work|work|D:\HDL\Counter\Counter_8BIT.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vD_FlipFlop
+Z24 !s100 `9h7gV9=SPHHE_YK>JkV^3
+Z25 IW]3CFSQM8Sk2am[4EAd4O0
+Z26 VD4[8W`nJPfQX^3RNJd2=o3
+R4
+Z27 w1601220431
+Z28 8D:/HDL/Counter/D_FlipFlop.v
+Z29 FD:/HDL/Counter/D_FlipFlop.v
+L0 1
+R8
+r1
+31
+Z30 !s108 1604222689.721000
+Z31 !s107 D:/HDL/Counter/D_FlipFlop.v|
+Z32 !s90 -reportprogress|300|-work|work|D:/HDL/Counter/D_FlipFlop.v|
+R10
+Z33 n@d_@flip@flop
+!i10b 1
+!s85 0
+!s101 -O0
+vD_Latch
+Z34 !s100 2^G5U]<D85GbP?M:i;lcC0
+Z35 IfX[X`;`A[>Jj>Q8NhBNnN1
+Z36 VZ6J<O7UgLZ6iaA]eaNF?72
+R4
+R27
+R28
+R29
+L0 11
+R8
+r1
+31
+R30
+R31
+R32
+R10
+Z37 n@d_@latch
+!i10b 1
+!s85 0
+!s101 -O0
+vHAS
+Z38 !s100 G2O;<ocEjfc8iO:A<j9o@2
+Z39 IE0hHWVC9JA`??B0<2A8:g1
+Z40 VF;nBPEl94HUJR]@IQb[h13
+R4
+Z41 w1600710898
+Z42 8D:/HDL/Counter/HAS.v
+Z43 FD:/HDL/Counter/HAS.v
+L0 1
+R8
+r1
+31
+Z44 !s90 -reportprogress|300|-work|work|D:/HDL/Counter/HAS.v|
+R10
+Z45 n@h@a@s
+Z46 !s108 1604222690.228000
+Z47 !s107 D:/HDL/Counter/HAS.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMux21_1BIT
+Z48 !s100 ZQ?EJed`<9_`CXFe9=2I40
+Z49 I56=5_JA[Ag4o0PWj2oW763
+Z50 VA8VM4MzTf5]8eh;>PlH_b0
+R4
+Z51 w1600794959
+Z52 8D:/HDL/Counter/Mux21_1BIT.v
+Z53 FD:/HDL/Counter/Mux21_1BIT.v
+L0 1
+R8
+r1
+31
+Z54 !s90 -reportprogress|300|-work|work|D:/HDL/Counter/Mux21_1BIT.v|
+R10
+Z55 n@mux21_1@b@i@t
+!i10b 1
+!s85 0
+Z56 !s108 1604222690.436000
+Z57 !s107 D:/HDL/Counter/Mux21_1BIT.v|
+!s101 -O0
+vtb_Counter_8BIT
+!i10b 1
+!s100 >Maf5c^NO>bR=I4zS46M52
+I^BCFa04l8NV@b2N[P<oM`1
+Z58 Vgz1e;28>SPIF[2Rh1OiIP1
+R4
+w1604222761
+Z59 8D:\HDL\Counter\PreSyn\testbench.v
+Z60 FD:\HDL\Counter\PreSyn\testbench.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1604222764.404000
+!s107 D:\HDL\Counter\PreSyn\testbench.v|
+Z61 !s90 -reportprogress|300|-work|work|D:\HDL\Counter\PreSyn\testbench.v|
+!s101 -O0
+R10
+Z62 ntb_@counter_8@b@i@t

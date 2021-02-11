@@ -1,0 +1,10 @@
+module FilterAngle(
+	input [31:0] angle;
+	output [31:0] filterAngle;
+);
+	wire [31:0] out1, out2, out3;
+	fadder fa0(angle, 32'hc0490fdb, out1);
+	fadder fa1(angle, 32'hbfc90fdb, out2);
+	fadder fa2(32'h3fc90fdb, out2, out3);
+	assign filterAngle = (out2[31]==1)?angle:(out2[31]==0 and out1[31]==1):out3;
+endmodule

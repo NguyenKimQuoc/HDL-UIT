@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Dec 28 01:26:30 2020
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : Tan
+Top-level Entity Name : Tan
+Family : Cyclone II
+Device : EP2C70F896I8
+Timing Models : Final
+Total logic elements : 12,748 / 68,416 ( 19 % )
+    Total combinational functions : 12,714 / 68,416 ( 19 % )
+    Dedicated logic registers : 184 / 68,416 ( < 1 % )
+Total registers : 184
+Total pins : 306 / 622 ( 49 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,152,000 ( 0 % )
+Embedded Multiplier 9-bit elements : 70 / 300 ( 23 % )
+Total PLLs : 0 / 4 ( 0 % )

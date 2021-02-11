@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vRegisterFile
+!i10b 1
+Z1 !s100 QlHGlMz>?JECF<<gZi>6X3
+Z2 IzCc31BjaHY<_UiZ3o;iX[0
+Z3 V9zh<h]D9HnR@jXfa4CE7<3
+Z4 dD:\HDL\RegisterFile\PostSyn
+Z5 w1603041875
+Z6 8D:/HDL/RegisterFile/simulation/modelsim/RegisterFile.vo
+Z7 FD:/HDL/RegisterFile/simulation/modelsim/RegisterFile.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1603069850.585000
+!s107 D:/HDL/RegisterFile/simulation/modelsim/RegisterFile.vo|
+Z9 !s90 -reportprogress|300|-work|work|D:/HDL/RegisterFile/simulation/modelsim/RegisterFile.vo|
+!s101 -O0
+Z10 o-work work -O0
+Z11 n@register@file
+vTestBench
+Z12 IgBMjz:Ne::2JRj0k`WmC71
+Z13 V^Yhm5^kEh_h2I_`<`O:8a2
+R4
+Z14 w1603069835
+Z15 8D:\HDL\RegisterFile\testbench.v
+Z16 FD:\HDL\RegisterFile\testbench.v
+L0 2
+R8
+r1
+31
+Z17 !s90 -reportprogress|300|-work|work|D:\HDL\RegisterFile\testbench.v|
+R10
+Z18 n@test@bench
+!i10b 1
+Z19 !s100 n9DV4aM<?[ZZ`hOFGR4T@2
+!s85 0
+Z20 !s108 1603069850.350000
+Z21 !s107 D:\HDL\RegisterFile\testbench.v|
+!s101 -O0

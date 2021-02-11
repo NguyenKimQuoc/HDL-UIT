@@ -1,0 +1,39 @@
+`timescale 1ns/1ps
+
+module TestBench();
+  reg [7:0] io;
+  wire [7:0] out;
+  reg reset_n, en, rw, clk;
+  wire empty, full, rws;
+  wire [7:0] bus;
+  
+  integer i;
+  always @ (clk)
+  #50 clk <= ~clk;
+  assign rws = en && rw; 
+  initial begin
+    clk=1;
+    reset_n=0;
+    en=0;
+    rw=0;
+    io=8'd0;
+    #150
+    reset_n=1;
+    rw=1;
+    en=1;
+    for(i=0; i<1024; i=i+1) begin
+      io = io + 1;
+      #100;
+    end
+    en=0;
+    #200;
+    en=1;
+    rw=0;
+    for(i=0; i<1024; i=i+1) begin
+      #100;
+    end
+    #10 $finish;
+  end
+  
+  queue ins(.io(bus), .empty(empty), .full(full), .reset_n(reset_n), .en(en), .rw(rw), .clk(clk));
+endmodule

@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\HDL\Stack\simulation\qsim
+vCounter_NBIT
+Z1 I273;d<[n7WSW>d^k4b`U53
+Z2 V:a`1gimjD92RJBWAI0m7V0
+Z3 dD:\HDL\Stack\simulation\qsim
+Z4 w1602445215
+Z5 8Stack.vo
+Z6 FStack.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@counter_@n@b@i@t
+Z10 !s100 FZRH;agg6N;0M368TF3X:3
+Z11 !s108 1602445216.573000
+Z12 !s107 Stack.vo|
+Z13 !s90 -work|work|Stack.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vCounter_NBIT_vlg_check_tst
+Z14 I0Mjnz81Z=G13e9jgo[aOe2
+Z15 VYd?la[[:AUFXNBcAGKg]T2
+R3
+Z16 w1602445214
+Z17 8Stack.vt
+Z18 FStack.vt
+L0 69
+R7
+r1
+31
+Z19 !s108 1602445216.818000
+Z20 !s107 Stack.vt|
+Z21 !s90 -work|work|Stack.vt|
+R8
+Z22 n@counter_@n@b@i@t_vlg_check_tst
+Z23 !s100 zDD5K3VQ59l2HY?cHAjZG3
+!i10b 1
+!s85 0
+!s101 -O0
+vCounter_NBIT_vlg_sample_tst
+Z24 IC>K;NXbQoB8hm`dE7IN8S1
+Z25 VnPXXSUzP0n6MnAC86NZ3F1
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+31
+R19
+R20
+R21
+R8
+Z26 n@counter_@n@b@i@t_vlg_sample_tst
+Z27 !s100 7;2I7[_O5R>?SZhI1^LLY2
+!i10b 1
+!s85 0
+!s101 -O0
+vCounter_NBIT_vlg_vec_tst
+Z28 Ic5;C@TW[2iOiJKXmY=GCG3
+Z29 V_WCGbiZfgZGA:M:H]:1an1
+R3
+R16
+R17
+R18
+Z30 L0 352
+R7
+r1
+31
+R19
+R20
+R21
+R8
+Z31 n@counter_@n@b@i@t_vlg_vec_tst
+Z32 !s100 aQI305_8^_<NSVb>nc>7V2
+!i10b 1
+!s85 0
+!s101 -O0
+vStack
+Z33 I_Bg@LZRI=`E8lJ0^0eVLL0
+Z34 V8JQo:?OZV9SMS@A:^nB]z2
+R3
+Z35 w1604239436
+R5
+R6
+L0 31
+R7
+r1
+31
+R13
+R8
+Z36 n@stack
+!i10b 1
+Z37 !s100 Mon=O7IIkEYbQaWd_>JCh1
+!s85 0
+Z38 !s108 1604239439.077000
+R12
+!s101 -O0
+vStack_vlg_check_tst
+!i10b 1
+!s100 B`C]gnBHKP<XaaVa8_Nl]0
+IWnfZdSK5fF4Q5ROfjblb21
+V[8Aol?6<[C]7?61fJHZOS3
+R3
+Z39 w1604239432
+R17
+R18
+L0 65
+R7
+r1
+!s85 0
+31
+Z40 !s108 1604239440.928000
+Z41 !s107 Stack.vt|
+R21
+!s101 -O0
+R8
+n@stack_vlg_check_tst
+vStack_vlg_sample_tst
+!i10b 1
+!s100 ]hb3`QKj]HDe^kfN0VjUf1
+IDEjz[MJBb;RAS7hfbYGRG2
+VgoO;7aESZX^;;ac[aIMGP2
+R3
+R39
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R40
+R41
+R21
+!s101 -O0
+R8
+n@stack_vlg_sample_tst
+vStack_vlg_vec_tst
+!i10b 1
+!s100 KXW4c]]e@RRi58;eX=CE41
+I?cm8[g1>iC@50>6Aanj;Q2
+VaPCRi4EB4ih<ATP95Cm7k2
+R3
+R39
+R17
+R18
+L0 299
+R7
+r1
+!s85 0
+31
+R40
+R41
+R21
+!s101 -O0
+R8
+n@stack_vlg_vec_tst

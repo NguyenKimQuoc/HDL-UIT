@@ -1,0 +1,573 @@
+|ShiftParallel_NBIT
+Out[0] <= ShiftParallel_1BIT:sh[0].Out
+Out[1] <= ShiftParallel_1BIT:sh[1].Out
+Out[2] <= ShiftParallel_1BIT:sh[2].Out
+Out[3] <= ShiftParallel_1BIT:sh[3].Out
+Out[4] <= ShiftParallel_1BIT:sh[4].Out
+Out[5] <= ShiftParallel_1BIT:sh[5].Out
+Out[6] <= ShiftParallel_1BIT:sh[6].Out
+Out[7] <= ShiftParallel_1BIT:sh[7].Out
+Clk => ShiftParallel_1BIT:sh[0].Clk
+Clk => ShiftParallel_1BIT:sh[1].Clk
+Clk => ShiftParallel_1BIT:sh[2].Clk
+Clk => ShiftParallel_1BIT:sh[3].Clk
+Clk => ShiftParallel_1BIT:sh[4].Clk
+Clk => ShiftParallel_1BIT:sh[5].Clk
+Clk => ShiftParallel_1BIT:sh[6].Clk
+Clk => ShiftParallel_1BIT:sh[7].Clk
+In[0] => ShiftParallel_1BIT:sh[0].Value1
+In[1] => ShiftParallel_1BIT:sh[1].Value1
+In[2] => ShiftParallel_1BIT:sh[2].Value1
+In[3] => ShiftParallel_1BIT:sh[3].Value1
+In[4] => ShiftParallel_1BIT:sh[4].Value1
+In[5] => ShiftParallel_1BIT:sh[5].Value1
+In[6] => ShiftParallel_1BIT:sh[6].Value1
+In[7] => ShiftParallel_1BIT:sh[7].Value1
+IL => ShiftParallel_1BIT:sh[7].Value3
+IR => ShiftParallel_1BIT:sh[0].Value2
+Sel0 => ShiftParallel_1BIT:sh[0].Sel0
+Sel0 => ShiftParallel_1BIT:sh[1].Sel0
+Sel0 => ShiftParallel_1BIT:sh[2].Sel0
+Sel0 => ShiftParallel_1BIT:sh[3].Sel0
+Sel0 => ShiftParallel_1BIT:sh[4].Sel0
+Sel0 => ShiftParallel_1BIT:sh[5].Sel0
+Sel0 => ShiftParallel_1BIT:sh[6].Sel0
+Sel0 => ShiftParallel_1BIT:sh[7].Sel0
+Sel1 => ShiftParallel_1BIT:sh[0].Sel1
+Sel1 => ShiftParallel_1BIT:sh[1].Sel1
+Sel1 => ShiftParallel_1BIT:sh[2].Sel1
+Sel1 => ShiftParallel_1BIT:sh[3].Sel1
+Sel1 => ShiftParallel_1BIT:sh[4].Sel1
+Sel1 => ShiftParallel_1BIT:sh[5].Sel1
+Sel1 => ShiftParallel_1BIT:sh[6].Sel1
+Sel1 => ShiftParallel_1BIT:sh[7].Sel1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[0]
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Clk => Clk.IN1
+Sel0 => Sel0.IN1
+Sel1 => Sel1.IN1
+Value1 => Value1.IN1
+Value2 => Value2.IN1
+Value3 => Value3.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[0]|Mux41_1BIT:mux
+Out <= Mux21_1BIT:mux_3.port0
+Sel0 => Sel0.IN2
+Sel1 => Sel1.IN1
+Value0 => Value0.IN1
+Value1 => Value1.IN1
+Value2 => Value2.IN1
+Value3 => Value3.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[0]|Mux41_1BIT:mux|Mux21_1BIT:mux_1
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[0]|Mux41_1BIT:mux|Mux21_1BIT:mux_2
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[0]|Mux41_1BIT:mux|Mux21_1BIT:mux_3
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[0]|D_FlipFlop:dff
+Q <= D_Latch:ff1.Q
+D => D.IN1
+Clk => Clk.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[0]|D_FlipFlop:dff|D_Latch:ff0
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+D => g0.IN0
+D => g2.IN0
+E => g0.IN1
+E => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[0]|D_FlipFlop:dff|D_Latch:ff1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+D => g0.IN0
+D => g2.IN0
+E => g0.IN1
+E => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[1]
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Clk => Clk.IN1
+Sel0 => Sel0.IN1
+Sel1 => Sel1.IN1
+Value1 => Value1.IN1
+Value2 => Value2.IN1
+Value3 => Value3.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[1]|Mux41_1BIT:mux
+Out <= Mux21_1BIT:mux_3.port0
+Sel0 => Sel0.IN2
+Sel1 => Sel1.IN1
+Value0 => Value0.IN1
+Value1 => Value1.IN1
+Value2 => Value2.IN1
+Value3 => Value3.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[1]|Mux41_1BIT:mux|Mux21_1BIT:mux_1
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[1]|Mux41_1BIT:mux|Mux21_1BIT:mux_2
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[1]|Mux41_1BIT:mux|Mux21_1BIT:mux_3
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[1]|D_FlipFlop:dff
+Q <= D_Latch:ff1.Q
+D => D.IN1
+Clk => Clk.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[1]|D_FlipFlop:dff|D_Latch:ff0
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+D => g0.IN0
+D => g2.IN0
+E => g0.IN1
+E => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[1]|D_FlipFlop:dff|D_Latch:ff1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+D => g0.IN0
+D => g2.IN0
+E => g0.IN1
+E => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[2]
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Clk => Clk.IN1
+Sel0 => Sel0.IN1
+Sel1 => Sel1.IN1
+Value1 => Value1.IN1
+Value2 => Value2.IN1
+Value3 => Value3.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[2]|Mux41_1BIT:mux
+Out <= Mux21_1BIT:mux_3.port0
+Sel0 => Sel0.IN2
+Sel1 => Sel1.IN1
+Value0 => Value0.IN1
+Value1 => Value1.IN1
+Value2 => Value2.IN1
+Value3 => Value3.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[2]|Mux41_1BIT:mux|Mux21_1BIT:mux_1
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[2]|Mux41_1BIT:mux|Mux21_1BIT:mux_2
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[2]|Mux41_1BIT:mux|Mux21_1BIT:mux_3
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[2]|D_FlipFlop:dff
+Q <= D_Latch:ff1.Q
+D => D.IN1
+Clk => Clk.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[2]|D_FlipFlop:dff|D_Latch:ff0
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+D => g0.IN0
+D => g2.IN0
+E => g0.IN1
+E => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[2]|D_FlipFlop:dff|D_Latch:ff1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+D => g0.IN0
+D => g2.IN0
+E => g0.IN1
+E => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[3]
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Clk => Clk.IN1
+Sel0 => Sel0.IN1
+Sel1 => Sel1.IN1
+Value1 => Value1.IN1
+Value2 => Value2.IN1
+Value3 => Value3.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[3]|Mux41_1BIT:mux
+Out <= Mux21_1BIT:mux_3.port0
+Sel0 => Sel0.IN2
+Sel1 => Sel1.IN1
+Value0 => Value0.IN1
+Value1 => Value1.IN1
+Value2 => Value2.IN1
+Value3 => Value3.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[3]|Mux41_1BIT:mux|Mux21_1BIT:mux_1
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[3]|Mux41_1BIT:mux|Mux21_1BIT:mux_2
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[3]|Mux41_1BIT:mux|Mux21_1BIT:mux_3
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[3]|D_FlipFlop:dff
+Q <= D_Latch:ff1.Q
+D => D.IN1
+Clk => Clk.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[3]|D_FlipFlop:dff|D_Latch:ff0
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+D => g0.IN0
+D => g2.IN0
+E => g0.IN1
+E => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[3]|D_FlipFlop:dff|D_Latch:ff1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+D => g0.IN0
+D => g2.IN0
+E => g0.IN1
+E => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[4]
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Clk => Clk.IN1
+Sel0 => Sel0.IN1
+Sel1 => Sel1.IN1
+Value1 => Value1.IN1
+Value2 => Value2.IN1
+Value3 => Value3.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[4]|Mux41_1BIT:mux
+Out <= Mux21_1BIT:mux_3.port0
+Sel0 => Sel0.IN2
+Sel1 => Sel1.IN1
+Value0 => Value0.IN1
+Value1 => Value1.IN1
+Value2 => Value2.IN1
+Value3 => Value3.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[4]|Mux41_1BIT:mux|Mux21_1BIT:mux_1
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[4]|Mux41_1BIT:mux|Mux21_1BIT:mux_2
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[4]|Mux41_1BIT:mux|Mux21_1BIT:mux_3
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[4]|D_FlipFlop:dff
+Q <= D_Latch:ff1.Q
+D => D.IN1
+Clk => Clk.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[4]|D_FlipFlop:dff|D_Latch:ff0
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+D => g0.IN0
+D => g2.IN0
+E => g0.IN1
+E => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[4]|D_FlipFlop:dff|D_Latch:ff1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+D => g0.IN0
+D => g2.IN0
+E => g0.IN1
+E => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[5]
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Clk => Clk.IN1
+Sel0 => Sel0.IN1
+Sel1 => Sel1.IN1
+Value1 => Value1.IN1
+Value2 => Value2.IN1
+Value3 => Value3.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[5]|Mux41_1BIT:mux
+Out <= Mux21_1BIT:mux_3.port0
+Sel0 => Sel0.IN2
+Sel1 => Sel1.IN1
+Value0 => Value0.IN1
+Value1 => Value1.IN1
+Value2 => Value2.IN1
+Value3 => Value3.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[5]|Mux41_1BIT:mux|Mux21_1BIT:mux_1
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[5]|Mux41_1BIT:mux|Mux21_1BIT:mux_2
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[5]|Mux41_1BIT:mux|Mux21_1BIT:mux_3
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[5]|D_FlipFlop:dff
+Q <= D_Latch:ff1.Q
+D => D.IN1
+Clk => Clk.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[5]|D_FlipFlop:dff|D_Latch:ff0
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+D => g0.IN0
+D => g2.IN0
+E => g0.IN1
+E => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[5]|D_FlipFlop:dff|D_Latch:ff1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+D => g0.IN0
+D => g2.IN0
+E => g0.IN1
+E => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[6]
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Clk => Clk.IN1
+Sel0 => Sel0.IN1
+Sel1 => Sel1.IN1
+Value1 => Value1.IN1
+Value2 => Value2.IN1
+Value3 => Value3.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[6]|Mux41_1BIT:mux
+Out <= Mux21_1BIT:mux_3.port0
+Sel0 => Sel0.IN2
+Sel1 => Sel1.IN1
+Value0 => Value0.IN1
+Value1 => Value1.IN1
+Value2 => Value2.IN1
+Value3 => Value3.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[6]|Mux41_1BIT:mux|Mux21_1BIT:mux_1
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[6]|Mux41_1BIT:mux|Mux21_1BIT:mux_2
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[6]|Mux41_1BIT:mux|Mux21_1BIT:mux_3
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[6]|D_FlipFlop:dff
+Q <= D_Latch:ff1.Q
+D => D.IN1
+Clk => Clk.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[6]|D_FlipFlop:dff|D_Latch:ff0
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+D => g0.IN0
+D => g2.IN0
+E => g0.IN1
+E => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[6]|D_FlipFlop:dff|D_Latch:ff1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+D => g0.IN0
+D => g2.IN0
+E => g0.IN1
+E => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[7]
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Clk => Clk.IN1
+Sel0 => Sel0.IN1
+Sel1 => Sel1.IN1
+Value1 => Value1.IN1
+Value2 => Value2.IN1
+Value3 => Value3.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[7]|Mux41_1BIT:mux
+Out <= Mux21_1BIT:mux_3.port0
+Sel0 => Sel0.IN2
+Sel1 => Sel1.IN1
+Value0 => Value0.IN1
+Value1 => Value1.IN1
+Value2 => Value2.IN1
+Value3 => Value3.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[7]|Mux41_1BIT:mux|Mux21_1BIT:mux_1
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[7]|Mux41_1BIT:mux|Mux21_1BIT:mux_2
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[7]|Mux41_1BIT:mux|Mux21_1BIT:mux_3
+Out <= g3.DB_MAX_OUTPUT_PORT_TYPE
+Sel => g2.IN0
+Sel => g1.IN0
+Value0 => g1.IN1
+Value1 => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[7]|D_FlipFlop:dff
+Q <= D_Latch:ff1.Q
+D => D.IN1
+Clk => Clk.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[7]|D_FlipFlop:dff|D_Latch:ff0
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+D => g0.IN0
+D => g2.IN0
+E => g0.IN1
+E => g2.IN1
+
+
+|ShiftParallel_NBIT|ShiftParallel_1BIT:sh[7]|D_FlipFlop:dff|D_Latch:ff1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+D => g0.IN0
+D => g2.IN0
+E => g0.IN1
+E => g2.IN1
+
+

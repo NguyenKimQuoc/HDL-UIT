@@ -1,0 +1,28 @@
+module SRwPLtest();
+  reg clk, din_left, din_right;
+  reg [1:0] S;
+  reg [7:0] din;
+  wire [7:0] qout;
+  SRwPL SRwPL_a(clk, din, din_left, din_right, S, qout);
+  initial
+  clk=1'b0;
+  always
+  #25 clk = ~clk;
+  initial 
+  begin
+    $monitor($time, "clk=%b, din=%b, din_left=%b, din_right=%b, S=%b, qout=%b", clk, din, din_left, din_right, S, qout);
+    #25 din = 8'b00000000; din_left=1'b0; din_right=1'b0; S=2'b00;
+    #50 din = 8'b00001111; din_left=1'b0; din_right=1'b0; S=2'b01; // qout = 00001111
+    #50 din = 8'b00001001; din_left=1'b0; din_right=1'b0; S=2'b00; // qout = 00001111
+    #50 din = 8'b11000000; din_left=1'b1; din_right=1'b0; S=2'b10; // qout = 00011110 shift left
+    #50 din = 8'b11000000; din_left=1'b0; din_right=1'b1; S=2'b10; // qout = 00111101 shift left
+    #50 din = 8'b00000011; din_left=1'b1; din_right=1'b0; S=2'b11; // qout = 10011110 shift right
+    #50 din = 8'b00000011; din_left=1'b1; din_right=1'b0; S=2'b11; // qout = 11001111 shift right
+    #50 $finish;
+  end
+  initial
+  begin
+    $dumpfile("SRwPLtest.vcd");
+    $dumpvars(0, SRwPLtest);
+  end
+endmodule

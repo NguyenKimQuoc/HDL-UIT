@@ -1,0 +1,20 @@
+module Stack(IO, Full, Empty, Reset, Push_Pop, Enable, Clk);
+	inout [7:0]IO; 
+	output Full, Empty;
+	input Reset, Push_Pop, Enable, Clk;
+	wire D, S;
+	wire [9:0]TopVal, TopVal_1, InRAM;
+	and(D, Push_Pop, Enable);
+	and(S, ~Push_Pop, Enable);
+	Counter_NBIT Top(.Q(TopVal), .Clk(Clk), .D(D), .E(Enable), .Load(0), .Reset(Reset));
+	Counter_NBIT Top_1(.Q(TopVal_1), .Clk(Clk), .D(D), .E(Enable), .Load(0), .Set(Reset));
+	Mux21_1BIT mux[9:0](
+		.Out(InRAM[9:0]), 
+		.Sel(S), 
+		.Value0(TopVal_1[9:0]), 
+		.Value1(TopVal[9:0])
+	);
+	Ram(IO, InRAM, S, Enable);
+	nor(Empty, TopVal[0], TopVal[1], TopVal[2], TopVal[3], TopVal[4], TopVal[5], TopVal[6], TopVal[7]);
+	and(Full, TopVal[0], TopVal[1], TopVal[2], TopVal[3], TopVal[4], TopVal[5], TopVal[6], TopVal[7]);
+endmodule

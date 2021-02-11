@@ -1,0 +1,194 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\HDL\Ram\simulation\modelsim
+vD_FlipFlop
+IGKZZ5doYN9lZ^bFH7E^>?1
+VD4[8W`nJPfQX^3RNJd2=o3
+Z1 dD:\HDL\Ram\simulation\modelsim
+Z2 w1601220431
+Z3 8D:/HDL/Ram/D_FlipFlop.v
+Z4 FD:/HDL/Ram/D_FlipFlop.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+31
+Z6 !s108 1601825067.809000
+Z7 !s107 D:/HDL/Ram/D_FlipFlop.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Ram|D:/HDL/Ram/D_FlipFlop.v|
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+D:/HDL/Ram -O0
+n@d_@flip@flop
+!i10b 1
+!s100 `BT:E>k8l2zhH7b44a=Zj3
+!s85 0
+!s101 -O0
+vD_Latch
+IDiz>^cLe^ZnY0ENXEfmSJ2
+VZ6J<O7UgLZ6iaA]eaNF?72
+R1
+R2
+R3
+R4
+L0 11
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@d_@latch
+!i10b 1
+!s100 CDi50S00I3z<YaOS`b8Jf2
+!s85 0
+!s101 -O0
+vDecoder10to1024
+I6N4^hb_aGkDOczEjZdJIW0
+VnJ=BkZDnW@;F]m@GEc@j41
+R1
+Z11 w1601823845
+Z12 8D:/HDL/Ram/Decoder.v
+Z13 FD:/HDL/Ram/Decoder.v
+L0 26
+R5
+r1
+31
+Z14 !s108 1601825068.626000
+Z15 !s107 D:/HDL/Ram/Decoder.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Ram|D:/HDL/Ram/Decoder.v|
+R9
+R10
+n@decoder10to1024
+!i10b 1
+!s100 3ge?L7JM`@6Z1RE7EaMm^3
+!s85 0
+!s101 -O0
+vDecoder2to4
+I3gZ@TZmje7l9=7BB;<0lC2
+VDdYWWC=9_RVK4cK@j1UIG3
+R1
+R11
+R12
+R13
+L0 1
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+n@decoder2to4
+!i10b 1
+!s100 B12F;VCFz1>Fc4_aoCmRm3
+!s85 0
+!s101 -O0
+vDecoder4to16
+I5YT3FAkPoF]XWLmDMS5_U3
+V@CTBVh5mWeJZAEaOfj=2k2
+R1
+R11
+R12
+R13
+L0 10
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+n@decoder4to16
+!i10b 1
+!s100 7^_YSIYhJNXR6<KJHloVo3
+!s85 0
+!s101 -O0
+vDecoder8to256
+IU;IZlSe:iolgB739lARZ`0
+V?QF7JnzKTE<?5d`dX5=<20
+R1
+R11
+R12
+R13
+L0 18
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+n@decoder8to256
+!i10b 1
+!s100 NH;hlYGmb<G[1Ii0a:NY`1
+!s85 0
+!s101 -O0
+vMCell
+I@eFnAn>B:YIc1o9C]RZ;03
+VUD5Hmhj0HSHU:M>C@CjCD2
+R1
+Z17 w1601824483
+Z18 8D:/HDL/Ram/MCell.v
+Z19 FD:/HDL/Ram/MCell.v
+L0 11
+R5
+r1
+31
+Z20 !s108 1601825068.158000
+Z21 !s107 D:/HDL/Ram/MCell.v|
+Z22 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Ram|D:/HDL/Ram/MCell.v|
+R9
+R10
+n@m@cell
+!i10b 1
+!s100 G]YN77hj0mZW15AH_7jFd0
+!s85 0
+!s101 -O0
+vMCell_1BIT
+IMElOSf4<mKDP8bhm:DUb20
+VF@_5?@455;]26z<=FX;F91
+R1
+R17
+R18
+R19
+L0 1
+R5
+r1
+31
+R20
+R21
+R22
+R9
+R10
+n@m@cell_1@b@i@t
+!i10b 1
+!s100 ;J5K=R6dfZLWR5geNdO_a2
+!s85 0
+!s101 -O0
+vRam
+!i10b 1
+!s100 7UIXkZ>2I:_A;aYa^ZVNC1
+I]kezR[BGZK[hbhcF:SAOc1
+VQ:gFDhKILcKXO4oT07fUG2
+R1
+w1601824619
+8D:/HDL/Ram/Ram.v
+FD:/HDL/Ram/Ram.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1601825069.254000
+!s107 D:/HDL/Ram/Ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HDL/Ram|D:/HDL/Ram/Ram.v|
+!s101 -O0
+R9
+R10
+n@ram

@@ -1,0 +1,16 @@
+# Compile of D_FlipFlop.v was successful.
+# Compile of Mux21_1BIT.v was successful.
+# Compile of Mux41_1BIT.v was successful.
+# Compile of ShiftParallel_1BIT.v was successful.
+# Compile of ShiftParallel_NBIT.v failed with 1 errors.
+# Compile of testbench.v was successful.
+# 6 compiles, 1 failed with 1 error. 
+# Compile of D_FlipFlop.v was successful.
+# Compile of Mux21_1BIT.v was successful.
+# Compile of Mux41_1BIT.v was successful.
+# Compile of ShiftParallel_1BIT.v was successful.
+# Compile of ShiftParallel_NBIT.v was successful.
+# Compile of testbench.v was successful.
+# 6 compiles, 0 failed with no errors. 
+# Load canceled
+# Load canceled

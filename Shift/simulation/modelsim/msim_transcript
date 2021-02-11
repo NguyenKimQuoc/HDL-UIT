@@ -1,0 +1,48 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ShiftParallel_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/HDL/Shift {D:/HDL/Shift/Mux21_1BIT.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Mux21_1BIT
+# 
+# Top level modules:
+# 	Mux21_1BIT
+# vlog -vlog01compat -work work +incdir+D:/HDL/Shift {D:/HDL/Shift/D_FlipFlop.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module D_FlipFlop
+# -- Compiling module D_Latch
+# 
+# Top level modules:
+# 	D_FlipFlop
+# vlog -vlog01compat -work work +incdir+D:/HDL/Shift {D:/HDL/Shift/Mux41_1BIT.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Mux41_1BIT
+# 
+# Top level modules:
+# 	Mux41_1BIT
+# vlog -vlog01compat -work work +incdir+D:/HDL/Shift {D:/HDL/Shift/ShiftParallel_1BIT.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ShiftParallel_1BIT
+# 
+# Top level modules:
+# 	ShiftParallel_1BIT
+# vlog -vlog01compat -work work +incdir+D:/HDL/Shift {D:/HDL/Shift/ShiftParallel_NBIT.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ShiftParallel_NBIT
+# ** Error: D:/HDL/Shift/ShiftParallel_NBIT.v(5): Array dimension with 'single value' (C-style) bound is only allowed in SystemVerilog (option -sv).
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./ShiftParallel_run_msim_rtl_verilog.do line 12
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+D:/HDL/Shift {D:/HDL/Shift/ShiftParallel_NBIT.v}"
+# reading C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Loading project ShiftParralel

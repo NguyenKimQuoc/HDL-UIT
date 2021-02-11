@@ -1,0 +1,9 @@
+module MemoryCell(Out, In, RowSel, WriteEn);
+	output Out;
+	input In;
+	input RowSel, WriteEn;
+	wire [1:0]w;
+	and gate0(w[0], RowSel, WriteEn);
+	D_Latch latch0(.Q(w[1),.D(In), .E(w[0]));
+	bufif1 buf(Out, In, RowSel);
+endmodule

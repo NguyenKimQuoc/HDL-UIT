@@ -1,0 +1,265 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\HDL\Ram\simulation\modelsim
+vD_FlipFlop
+Z1 !s100 `BT:E>k8l2zhH7b44a=Zj3
+Z2 I;aY]IW58=5bz^DHokNSdG1
+Z3 VD4[8W`nJPfQX^3RNJd2=o3
+Z4 dD:\HDL\Ram\PreSyn
+Z5 w1601220431
+Z6 8D:/HDL/Ram/D_FlipFlop.v
+Z7 FD:/HDL/Ram/D_FlipFlop.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s108 1604241630.076000
+Z10 !s107 D:/HDL/Ram/D_FlipFlop.v|
+Z11 !s90 -reportprogress|300|-work|work|D:/HDL/Ram/D_FlipFlop.v|
+Z12 o-work work -O0
+Z13 n@d_@flip@flop
+!i10b 1
+!s85 0
+!s101 -O0
+vD_Latch
+Z14 !s100 CDi50S00I3z<YaOS`b8Jf2
+Z15 ILaN>eC]UQFH9eIFDPXDQN0
+Z16 VZ6J<O7UgLZ6iaA]eaNF?72
+R4
+R5
+R6
+R7
+L0 11
+R8
+r1
+31
+R9
+R10
+R11
+R12
+Z17 n@d_@latch
+!i10b 1
+!s85 0
+!s101 -O0
+vDecoder10to1024
+Z18 !s100 3ge?L7JM`@6Z1RE7EaMm^3
+Z19 I1EVZL:Ub1z>Cg<EJIfMJD0
+Z20 VnJ=BkZDnW@;F]m@GEc@j41
+R4
+Z21 w1601823845
+Z22 8D:/HDL/Ram/Decoder.v
+Z23 FD:/HDL/Ram/Decoder.v
+L0 26
+R8
+r1
+31
+Z24 !s108 1604241630.334000
+Z25 !s107 D:/HDL/Ram/Decoder.v|
+Z26 !s90 -reportprogress|300|-work|work|D:/HDL/Ram/Decoder.v|
+R12
+Z27 n@decoder10to1024
+!i10b 1
+!s85 0
+!s101 -O0
+vDecoder2to4
+Z28 !s100 B12F;VCFz1>Fc4_aoCmRm3
+Z29 Ih68;TJOYh0`efcoRcRD4?2
+Z30 VDdYWWC=9_RVK4cK@j1UIG3
+R4
+R21
+R22
+R23
+L0 1
+R8
+r1
+31
+R24
+R25
+R26
+R12
+Z31 n@decoder2to4
+!i10b 1
+!s85 0
+!s101 -O0
+vDecoder4to16
+Z32 !s100 7^_YSIYhJNXR6<KJHloVo3
+Z33 I[?V<KEdenIj]74CLim9B[2
+Z34 V@CTBVh5mWeJZAEaOfj=2k2
+R4
+R21
+R22
+R23
+L0 10
+R8
+r1
+31
+R24
+R25
+R26
+R12
+Z35 n@decoder4to16
+!i10b 1
+!s85 0
+!s101 -O0
+vDecoder8to256
+Z36 !s100 NH;hlYGmb<G[1Ii0a:NY`1
+Z37 IdXX8G@`PQ903ib@ZlCZid1
+Z38 V?QF7JnzKTE<?5d`dX5=<20
+R4
+R21
+R22
+R23
+L0 18
+R8
+r1
+31
+R24
+R25
+R26
+R12
+Z39 n@decoder8to256
+!i10b 1
+!s85 0
+!s101 -O0
+vMCell
+Z40 !s100 G]YN77hj0mZW15AH_7jFd0
+Z41 I^SA6zGUNZ<?]mDo9@h_@<2
+Z42 VUD5Hmhj0HSHU:M>C@CjCD2
+R4
+Z43 w1601824483
+Z44 8D:/HDL/Ram/MCell.v
+Z45 FD:/HDL/Ram/MCell.v
+L0 11
+R8
+r1
+31
+Z46 !s108 1604241630.812000
+Z47 !s107 D:/HDL/Ram/MCell.v|
+Z48 !s90 -reportprogress|300|-work|work|D:/HDL/Ram/MCell.v|
+R12
+Z49 n@m@cell
+!i10b 1
+!s85 0
+!s101 -O0
+vMCell_1BIT
+Z50 !s100 ;J5K=R6dfZLWR5geNdO_a2
+Z51 IOLgW^gzdG^hzVJ0EYhlVK0
+Z52 VF@_5?@455;]26z<=FX;F91
+R4
+R43
+R44
+R45
+L0 1
+R8
+r1
+31
+R46
+R47
+R48
+R12
+Z53 n@m@cell_1@b@i@t
+!i10b 1
+!s85 0
+!s101 -O0
+vRam
+Z54 !s100 V?`ZVbQzlS[Q]WBLfnfFI3
+Z55 I^dK>X?:?4CEG48DKRZYzI2
+Z56 VKkn_E6<S=4TVT;n:l`z<d3
+R4
+Z57 w1601892885
+Z58 8D:\HDL\Ram\Ram.v
+Z59 FD:\HDL\Ram\Ram.v
+L0 1
+R8
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|D:\HDL\Ram\Ram.v|
+R12
+n@ram
+Z61 !s108 1604241631.077000
+Z62 !s107 D:\HDL\Ram\Ram.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtestBench
+Z63 !s100 JU<1_=TUXOdc3O0=fJW:Q0
+Z64 IAo[VXB8PcVgBfg=Z9Hme93
+Z65 V][O;elXgBa0hCBnb9`8PM3
+R4
+Z66 w1601832565
+Z67 8D:\HDL\Ram\PreSyn\tb_Ram.v
+Z68 FD:\HDL\Ram\PreSyn\tb_Ram.v
+L0 2
+R8
+r1
+31
+Z69 !s90 -reportprogress|300|-work|work|D:\HDL\Ram\PreSyn\tb_Ram.v|
+R12
+Z70 ntest@bench
+Z71 !s108 1601832729.380000
+Z72 !s107 D:\HDL\Ram\PreSyn\tb_Ram.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTestDecoder
+Z73 !s100 Q=mo::`Kgm59gnJDlPd2f3
+Z74 IdQ6[80bo;SdPWXmXjn1=63
+Z75 VBJ?3befJC1WQC?U@B<?B@2
+R4
+Z76 w1601826284
+Z77 8D:/HDL/Ram/PreSyn/tb_decoder.v
+Z78 FD:/HDL/Ram/PreSyn/tb_decoder.v
+L0 1
+R8
+r1
+31
+Z79 !s90 -reportprogress|300|-work|work|D:/HDL/Ram/PreSyn/tb_decoder.v|
+R12
+Z80 n@test@decoder
+Z81 !s108 1604241631.230000
+Z82 !s107 D:/HDL/Ram/PreSyn/tb_decoder.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTestModule
+Z83 IKVLc;jQQ83Vkf3^TQ@Jnc0
+Z84 VXA?93LhLG<l80?K;amY8W1
+R4
+Z85 w1601825994
+Z86 8D:\HDL\Ram\PreSyn\tb_decoder.v
+Z87 FD:\HDL\Ram\PreSyn\tb_decoder.v
+L0 1
+R8
+r1
+31
+R12
+Z88 n@test@module
+Z89 !s100 2TBojBUY8YlZUoBWBDTf30
+Z90 !s108 1601826004.677000
+Z91 !s107 D:\HDL\Ram\PreSyn\tb_decoder.v|
+Z92 !s90 -reportprogress|300|-work|work|D:\HDL\Ram\PreSyn\tb_decoder.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTestRam
+!i10b 1
+!s100 RVQ^5cInCTkA;d83gOmEF1
+I:61ZeW6m3ocKKU>@VaCN`3
+Z93 VdgdfmFO`hl`4OI8QD1oLf0
+R4
+w1604241957
+R67
+R68
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1604241961.484000
+!s107 D:\HDL\Ram\PreSyn\tb_Ram.v|
+R69
+!s101 -O0
+R12
+Z94 n@test@ram
